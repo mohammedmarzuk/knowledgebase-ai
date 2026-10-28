@@ -1,0 +1,33 @@
+FICTIONAL TRAINING DOCUMENT — REMOTE, HYBRID AND CROSS-BORDER WORK
+Document ID: OPS-001 | Version: 1.0 | Owner: People Operations and IT
+All policy statements are fictional examples for knowledge-base testing.
+
+1. Eligibility and approval
+Remote or hybrid work depends on role requirements, customer commitments, security needs, and the employee's agreement. An employee should obtain written manager approval before changing an established work arrangement. Approval should record the expected location, schedule, review date, and any conditions. A temporary informal conversation is not a substitute for required written approval.
+
+2. Cross-border work
+Working from another country can affect immigration authorization, payroll, tax, insurance, data protection, and employment obligations. In this fictional policy, cross-border remote work requires written approval from the manager and People Operations before travel or work begins. Additional review by Security, Legal, Finance, or Global Mobility may be required. Employees must not assume that a tourist entry permission allows them to work. The sample policy does not provide immigration advice or determine whether any person is legally authorized to work in a specific country.
+
+3. Availability and communication
+Remote employees should maintain agreed working hours, keep their calendar current, and communicate expected response times. Teams should identify core collaboration hours and document handover arrangements across time zones. Urgent incidents should use the approved escalation channel rather than relying on a direct message to one person. Managers should assess outcomes and collaboration, not use constant status checks as a substitute for clear objectives.
+
+4. Workspace and confidentiality
+Employees should work in a location where confidential conversations and information can be protected. Public Wi-Fi should be avoided for sensitive work unless an approved secure connection is used. Screens should be locked when unattended. Printed confidential material should be avoided unless necessary and should be securely stored and disposed of. Smart speakers, cameras, or other recording devices should not capture confidential meetings without authorization.
+
+5. Equipment and support
+Company equipment should be used according to IT standards. Employees should report lost devices, damaged equipment, suspected malware, or unauthorized access promptly. Personal devices may be used for company work only where the relevant bring-your-own-device requirements permit it. Employees must not install unapproved remote-access tools or disable endpoint protection. IT support should use authorized remote support methods and verify the identity of the requester.
+
+6. Health and work boundaries
+Employees should take appropriate breaks and use an ergonomic setup where practical. Managers should set realistic workloads and avoid treating remote availability as unlimited availability. Work messages outside agreed hours should be limited to genuine operational needs and handled under the team's escalation arrangements. Employees who need a change to their setup should contact the designated support channel.
+
+7. Meetings and records
+Meeting invitations should include an agenda when practical, and decisions should be recorded in the approved team workspace. Sensitive customer or personnel matters should not be discussed in a public location where others can overhear. Meeting recordings require an authorized purpose, appropriate notice, and approved storage. The meeting host should confirm who can access any recording and when it should be deleted.
+
+8. Business continuity
+If a home internet connection or power supply fails, employees should notify the manager when possible and use an approved alternative arrangement. Employees should not transfer company files to personal cloud storage as a workaround. Critical tasks should have documented backups and a secondary owner. The manager should prioritize customer and safety needs and agree on a realistic recovery plan.
+
+Quick retrieval facts:
+- Cross-border remote work requires written approval from the manager and People Operations in this fictional policy.
+- Employees must not assume tourist entry permission allows work.
+- Confidential work requires a private environment and approved secure access.
+- Personal cloud storage is not an approved workaround for outages.

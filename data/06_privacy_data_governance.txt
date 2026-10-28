@@ -1,0 +1,45 @@
+FICTIONAL TRAINING DOCUMENT — PRIVACY AND DATA GOVERNANCE
+Document ID: DATA-001 | Version: 1.0 | Owner: Data Governance
+This fictional document supports RAG testing. Real privacy obligations depend on jurisdiction and circumstances.
+
+1. Data handling principles
+Collect only information needed for a defined and authorized purpose. Keep data accurate, restrict access, protect it against unauthorized disclosure, and retain it only for an approved period. Information should be classified according to sensitivity and handled using controls appropriate to that classification. Convenience alone is not a valid reason to copy data into an unapproved location.
+
+2. Data classification
+The sample organization uses four illustrative levels:
+- Public: approved for unrestricted public distribution.
+- Internal: routine business information intended for staff and approved contractors.
+- Confidential: information whose disclosure could harm an individual or the organization, such as non-public business plans or customer records.
+- Restricted: highly sensitive information requiring specific authorization, such as authentication secrets or certain regulated personal data.
+The classification owner should review ambiguous cases and apply the more protective handling until a decision is made.
+
+3. Personal information
+Personal information should be accessed only for a legitimate work purpose and only by authorized people. Avoid collecting unnecessary identifiers or sensitive details. Use approved secure channels for transmitting personal data. When sharing information with a vendor, confirm the business purpose, contract, security review, and permitted data fields. Do not place personal information in public prompts, personal note applications, or open collaboration spaces.
+
+4. Data subject requests
+Requests to access, correct, delete, or otherwise act on personal information should be routed to the privacy contact or designated intake process. Employees should not make an independent promise about a legal deadline or outcome. The request should be logged, the identity of the requester verified proportionately, and the relevant data owner consulted. Records should show the date received, request type, responsible owner, and resolution status.
+
+5. Retention and deletion
+Every dataset should have a business owner and a documented retention rule. Keep information only as long as needed for its approved purpose or a valid retention requirement. Deletion should be performed using approved processes that account for backups, legal holds, and dependent systems. Employees must not destroy records to avoid an audit or investigation. When the retention rule is unknown, ask the data owner rather than inventing a deadline.
+
+6. Data quality and lineage
+Important datasets should document their source, owner, update frequency, key fields, transformation logic, known limitations, and downstream consumers. Quality checks may include completeness, validity, uniqueness, consistency, timeliness, and referential integrity. A failed critical check should trigger a recorded incident or alert. Corrections should be traceable so users can understand whether historical reports changed.
+
+7. Data sharing and vendors
+External sharing requires a defined purpose, appropriate approval, a verified recipient, and a secure transfer method. Contracts should specify permitted use, confidentiality, security obligations, retention, deletion, and incident notification where applicable. Data should not be reused for a new purpose without review. Vendor access should be time-bound where possible and removed when the engagement ends.
+
+8. Breach and accidental disclosure
+If information is sent to the wrong recipient, exposed through a public link, or accessed without authorization, report it immediately to Security and Privacy. Include the information category, approximate volume, recipients, time, and containment steps. Do not conceal the event or contact affected individuals independently unless authorized. The response team will assess the risk and determine required actions.
+
+9. Analytics and anonymization
+Reports should use aggregated or de-identified data when individual-level detail is not required. Removing a name alone may not make a dataset anonymous if people can be reidentified from other attributes. Test datasets should use synthetic or approved masked information. Analysts should document assumptions, filters, exclusions, and known biases.
+
+10. Data ownership
+Each important dataset should have a named business owner and technical steward. The business owner defines intended use and quality requirements. The steward maintains technical documentation, access pathways, and operational checks. Changes to definitions should be communicated to downstream users and versioned where practical.
+
+Quick retrieval facts:
+- The sample classification levels are Public, Internal, Confidential, and Restricted.
+- Data access requires an authorized business purpose.
+- Unknown retention periods must be confirmed with the data owner.
+- Accidental disclosure should be reported immediately to Security and Privacy.
+- Removing names alone does not guarantee anonymization.

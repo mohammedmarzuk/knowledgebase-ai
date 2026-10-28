@@ -1,0 +1,27 @@
+FICTIONAL TRAINING DOCUMENT — CUSTOMER, VENDOR AND CONTRACT INFORMATION
+Document ID: LEGAL-001 | Version: 1.0 | Owner: Legal Operations
+Fictional operational reference; not legal advice.
+
+1. Contract ownership
+Every material contract should have a named business owner responsible for service outcomes, renewal awareness, and coordination with Legal, Finance, Security, and Procurement. The owner should understand key deliverables, payment terms, data obligations, termination rights, service credits where applicable, and notice periods. The signed agreement is the primary source for contractual commitments.
+
+2. Review and signature
+Contracts should be reviewed by authorized personnel before signature. Employees without delegated authority must not sign or promise acceptance of contractual terms on behalf of the organization. A supplier's standard terms may contain renewal, liability, data-use, or jurisdiction provisions that require review. Informal email discussions do not replace formal approval where the process requires a signed agreement.
+
+3. Customer commitments
+Customer-facing commitments should be based on approved product capabilities, service descriptions, and contract terms. Sales or support staff should not promise custom functionality, guaranteed delivery dates, or service credits without the appropriate approval. If a customer asks for a commitment not found in the approved materials, record the request and escalate it to the accountable owner.
+
+4. Confidential information
+Contracts may include confidential pricing, technical details, customer lists, security reports, and personal data. Share only with authorized recipients and use approved storage. Before providing a document to a third party, confirm whether redaction or a confidentiality agreement is required. Public portfolio examples should use synthetic or approved information.
+
+5. Renewal and termination
+The contract owner should maintain renewal and notice dates and start review early enough to assess performance and alternatives. Termination should follow the agreement's notice method and timeline. At termination, coordinate access revocation, asset return, data return or deletion, outstanding invoices, and transition assistance. Do not assume a contract automatically ends on an informal requested date.
+
+6. Disputes
+When a dispute arises, preserve relevant records, identify the contractual clause or deliverable in question, and involve the authorized owner. Employees should not admit liability or make legal conclusions without authorization. Communications should remain factual and professional. Time-sensitive notices should be routed promptly because contractual deadlines may apply.
+
+Quick retrieval facts:
+- The signed agreement is the primary source for contractual commitments.
+- Employees without delegated authority must not sign contracts.
+- Unapproved customer commitments should be escalated.
+- Contract termination should follow the agreement's notice method and timeline.

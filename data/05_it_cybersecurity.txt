@@ -1,0 +1,40 @@
+FICTIONAL TRAINING DOCUMENT — IT SECURITY AND CYBERSECURITY STANDARD
+Document ID: SEC-001 | Version: 1.0 | Owner: Information Security
+Fictional training material. It is not a substitute for a real organization's security standard.
+
+1. Core principles
+Company information systems should be protected through least privilege, strong authentication, timely patching, secure configuration, and prompt incident reporting. Employees are responsible for protecting the accounts and devices assigned to them. Security is a shared responsibility; suspected mistakes should be reported quickly rather than concealed.
+
+2. Passwords and authentication
+Use unique passwords or passphrases for each service and store them in an approved password manager. Multi-factor authentication should be enabled wherever provided. Never share a password, one-time code, recovery code, or authentication approval with another person, including someone claiming to be IT support. IT will not need an employee's password to troubleshoot an account. If a password may have been exposed, change it through the official service and report the incident.
+
+3. Phishing and social engineering
+Treat unexpected requests for credentials, payment changes, gift cards, confidential files, or urgent secrecy with caution. Verify unusual requests using a known contact channel rather than replying to the suspicious message. Do not open unexpected attachments or enable macros unless the source and purpose are verified. Report suspected phishing using the mail client's reporting function or the official security channel. If a link was clicked or credentials entered, report immediately and describe what happened.
+
+4. Devices and software
+Devices should use supported operating systems, screen locks, disk encryption where available, and current security updates. Employees must not disable endpoint protection or install software from untrusted sources. Administrative privileges should be granted only when needed and removed when no longer justified. Lost or stolen devices must be reported promptly so Security can assess containment options. Company devices should not be left unattended in public places.
+
+5. Data transfer and storage
+Use approved company storage and collaboration systems. Do not send confidential files to personal email, consumer file-sharing accounts, or unapproved messaging services. Before sharing a file externally, verify the recipient, business purpose, classification, and access expiration. Links should be restricted to named recipients when possible. Public links should not be used for confidential or restricted material.
+
+6. Network and remote access
+Use approved VPN or zero-trust access methods where required. Avoid conducting sensitive work over open public networks unless the approved secure connection is active. Do not install unapproved remote administration tools. IT support must verify the requester and use authorized tools. Employees should report unexpected authentication prompts or repeated login failures that they did not initiate.
+
+7. Vulnerabilities and patching
+Security updates should be installed within the timelines communicated by IT. A vulnerability found in an application, library, script, or device should be reported with enough detail to reproduce or assess the issue. Employees should not test a vulnerability against systems without authorization. Engineering teams should prioritize fixes based on exploitability, exposure, business impact, and available mitigations.
+
+8. Security incident response
+A suspected security incident includes lost equipment, exposed credentials, malware, unauthorized access, accidental disclosure, suspicious payment changes, or unusual system behaviour. Report it immediately through the security incident channel. Include what happened, when it happened, affected systems, data involved, and actions already taken. Do not delete evidence, investigate beyond your authorization, or make public statements. Security will coordinate containment, investigation, recovery, and communications.
+
+9. Access reviews and account lifecycle
+Managers should request access based on job duties and review access after role changes. Shared accounts should be avoided unless a documented technical exception is approved and controls are in place. Departing employees' access should be disabled at the approved time. Service accounts require an owner, limited permissions, protected credentials, and periodic review.
+
+10. Secure development
+Developers should use code review, dependency scanning, secret scanning, and approved deployment pipelines. Credentials must not be committed to source control. Security defects should be tracked and fixed according to severity. Production data should not be copied into development or testing environments unless an approved control protects it.
+
+Quick retrieval facts:
+- Never share passwords or one-time authentication codes.
+- Report suspected security incidents immediately.
+- Do not use personal email or personal cloud storage for confidential company files.
+- Lost devices and exposed credentials must be reported.
+- Vulnerability testing requires authorization.

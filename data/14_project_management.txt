@@ -1,0 +1,36 @@
+FICTIONAL TRAINING DOCUMENT — PROJECT DELIVERY AND RISK MANAGEMENT
+Document ID: PM-001 | Version: 1.0 | Owner: Project Management Office
+Fictional operational guidance.
+
+1. Project initiation
+A project proposal should state the problem, expected outcome, sponsor, scope, non-goals, stakeholders, assumptions, constraints, budget estimate, and success measures. The sponsor should confirm that the work aligns with a business priority before the team commits substantial resources. A project should have one accountable owner and a clear decision-making route.
+
+2. Scope and requirements
+Requirements should distinguish must-have outcomes from optional enhancements. Acceptance criteria should be testable and agreed with the relevant stakeholders. Changes to scope should identify the impact on timeline, cost, quality, and risk. A change is not approved merely because it was mentioned in a meeting; the decision should be recorded in the project workspace.
+
+3. Planning and milestones
+A delivery plan should include major milestones, dependencies, owners, and target dates. Estimates should state assumptions and uncertainty. Critical dependencies should have an owner and a fallback where practical. Plans should be updated when material facts change rather than preserved only to appear on schedule.
+
+4. Status reporting
+A weekly status report in this fictional process includes overall status, completed work, next milestones, risks, issues, decisions required, and changes to forecast dates. Status should reflect evidence rather than optimism. A red status means a material objective or milestone is at risk and requires action or a decision. Escalation should include the problem, impact, options, recommendation, and decision deadline.
+
+5. Risk and issue management
+A risk is an uncertain event that may affect objectives; an issue is a problem that has already occurred. Each significant risk should have a likelihood, impact, owner, mitigation, and review date. An issue should have an action owner, next step, and target resolution date. Risks should not be marked closed simply because they have not occurred recently.
+
+6. Decision records
+Material decisions should record the context, options considered, decision, rationale, owner, date, and follow-up actions. Decision logs reduce repeated debates and help new team members understand trade-offs. Reversibility and the cost of delay should be considered when choosing how much analysis is necessary.
+
+7. Stakeholder communication
+Communication should be tailored to the audience and frequency agreed at initiation. Stakeholders should hear about material changes early enough to respond. Meetings should have a purpose, owner, and outcome. Decisions and action items should be recorded in the approved system.
+
+8. Delivery and acceptance
+Deliverables should be checked against acceptance criteria and documented quality standards. A demo alone does not prove that security, performance, accessibility, or operational requirements are satisfied. The receiving owner should explicitly accept the deliverable or list the remaining gaps. Unaccepted work should not be represented as fully complete.
+
+9. Retrospectives and lessons learned
+A retrospective should identify what helped, what hindered, and which specific improvements will be tried next. The discussion should focus on systems and behaviours rather than blame. Each improvement should have an owner and a follow-up date. Repeated lessons should be incorporated into templates or standard practices.
+
+Quick retrieval facts:
+- A weekly status report includes status, completed work, next milestones, risks, issues, decisions, and forecast changes.
+- Risks are uncertain events; issues have already occurred.
+- Scope changes should record impacts and an approval decision.
+- Acceptance should be explicit and based on agreed criteria.

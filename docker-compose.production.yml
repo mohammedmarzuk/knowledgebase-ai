@@ -1,0 +1,70 @@
+# Production overlay: run with:
+# docker compose -f docker-compose.yml -f docker-compose.production.yml up -d --build
+# Requires DOMAIN, ACME_EMAIL, APP_AUTH_USER, APP_AUTH_HASH in .env.
+services:
+  app:
+    restart: unless-stopped
+    expose:
+      - "8501"
+    ports: []
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL:-qwen3:4b}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-500}
+      STREAMLIT_SERVER_MAX_UPLOAD_SIZE: ${MAX_UPLOAD_MB:-500}
+      STREAMLIT_SERVER_MAX_MESSAGE_SIZE: ${STREAMLIT_MAX_MESSAGE_MB:-550}
+      RAG_TOP_K: ${RAG_TOP_K:-3}
+      RAG_CHUNK_WORDS: ${RAG_CHUNK_WORDS:-180}
+      RAG_CHUNK_OVERLAP: ${RAG_CHUNK_OVERLAP:-35}
+      RAG_CANDIDATE_MULTIPLIER: ${RAG_CANDIDATE_MULTIPLIER:-4}
+      RAG_MAX_CONTEXT_CHARS: ${RAG_MAX_CONTEXT_CHARS:-18000}
+      RAG_STREAMING_DEFAULT: ${RAG_STREAMING_DEFAULT:-true}
+      RAG_ANALYTICS_ENABLED: ${RAG_ANALYTICS_ENABLED:-true}
+      RAG_DATA_DIR: /app/data
+      RAG_DB_DIR: /app/chroma_db
+      RAG_ANALYTICS_PATH: /app/runtime/analytics_events.jsonl
+    volumes:
+      - ./data:/app/data
+      - chroma_data:/app/chroma_db
+      - analytics_data:/app/runtime
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    mem_limit: ${APP_MEMORY_LIMIT:-4g}
+    cpus: ${APP_CPU_LIMIT:-2.0}
+
+  ollama:
+    restart: unless-stopped
+    ports: []
+    expose:
+      - "11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    security_opt:
+      - no-new-privileges:true
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      - app
+    environment:
+      DOMAIN: ${DOMAIN:?Set DOMAIN in .env}
+      ACME_EMAIL: ${ACME_EMAIL:?Set ACME_EMAIL in .env}
+      APP_AUTH_USER: ${APP_AUTH_USER:?Set APP_AUTH_USER in .env}
+      APP_AUTH_HASH: ${APP_AUTH_HASH:?Set APP_AUTH_HASH in .env}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  caddy_data:
+  caddy_config:

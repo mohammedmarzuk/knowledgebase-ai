@@ -1,0 +1,531 @@
+COMPANY POLICY AND EMPLOYEE HANDBOOK
+Fictional Training Example — KnowledgeBase AI RAG Demo
+Version: 1.0
+Effective date: 1 January 2026
+Owner: Human Resources Department
+Review cycle: Annual
+Status: Sample policy for software testing only
+
+IMPORTANT NOTICE
+This handbook is fictional sample content created to test a Retrieval-Augmented Generation (RAG) application. It is not legal advice and is not an actual employer policy. Any real organization should have its own HR, legal, security, and leadership teams review and approve its policies before use.
+
+DOCUMENT CONTROL
+Document title: Company Policy and Employee Handbook
+Document ID: HR-HANDBOOK-001
+Version: 1.0
+Effective date: 1 January 2026
+Next review date: 1 January 2027
+Policy owner: Human Resources
+Approver: Executive Leadership (fictional example)
+Applies to: Employees of the fictional Example Company
+Related documents: Information Security Standard; Acceptable Use Policy; Remote Work Procedure; Travel and Expense Procedure; Incident Reporting Procedure.
+
+TABLE OF CONTENTS
+1. Purpose, scope, and principles
+2. Employment categories and onboarding
+3. Working hours, attendance, and time records
+4. Leave and public holidays
+5. Sick leave, medical appointments, and wellbeing
+6. Remote and hybrid work
+7. Compensation, payroll, and benefits
+8. Code of conduct and professional behavior
+9. Equal opportunity, anti-harassment, and respectful workplace
+10. Performance, learning, and career development
+11. Information security and acceptable use
+12. Privacy and personal data
+13. Confidential information and intellectual property
+14. AI tools and automated systems
+15. Health, safety, and workplace facilities
+16. Travel, expenses, and purchasing
+17. Conflicts of interest, gifts, and outside work
+18. Reporting concerns and investigations
+19. Disciplinary process and appeals
+20. Resignation, termination, and offboarding
+21. Business continuity and emergency communications
+22. Frequently asked questions
+23. Policy exceptions and document review
+
+1. PURPOSE, SCOPE, AND PRINCIPLES
+1.1 Purpose
+This handbook explains the fictional Example Company's general workplace expectations, employee support processes, and basic operational rules. It is intended to help employees find consistent answers to common questions and understand where to ask for clarification.
+
+1.2 Scope
+This sample applies to full-time and part-time employees of the fictional company. Temporary workers, contractors, interns, and agency personnel should follow the relevant contractual terms and any policies explicitly applicable to them. Where local law or an employment agreement provides a more protective or different requirement, the organization must obtain qualified advice and apply the applicable rule.
+
+1.3 Principles
+The company aims to:
+- Treat people fairly and respectfully.
+- Protect employee, customer, and company information.
+- Communicate expectations clearly.
+- Make decisions using documented criteria.
+- Encourage learning and continuous improvement.
+- Maintain safe and accessible working environments.
+- Comply with applicable law and contractual obligations.
+
+1.4 Questions about interpretation
+Employees should first consult their manager or Human Resources. Questions involving safety, harassment, privacy, security, payroll, or legal rights may be escalated to the relevant specialist team. The handbook is a guide and does not replace local law or an employment contract.
+
+2. EMPLOYMENT CATEGORIES AND ONBOARDING
+2.1 Employment categories
+The fictional company may engage full-time employees, part-time employees, fixed-term employees, interns, and contractors. Eligibility for leave, benefits, equipment, and training may differ by category and is determined by the applicable offer letter, contract, and local requirements.
+
+2.2 Before the first day
+The hiring manager should confirm the role, reporting line, start date, work location, and initial objectives. Human Resources coordinates required employment documents. IT prepares approved accounts and equipment based on role requirements.
+
+2.3 First-week onboarding
+New employees should:
+- Review this handbook and acknowledge receipt.
+- Complete required security, privacy, safety, and conduct training.
+- Set up multi-factor authentication where supported.
+- Confirm emergency contact and payroll details through approved channels.
+- Learn how to report IT issues, safety concerns, and workplace incidents.
+- Discuss initial goals and expectations with their manager.
+
+2.4 Probation and role expectations
+If a probation period applies, its duration and terms are specified in the employment agreement. Managers should provide timely feedback and explain performance expectations. The handbook does not establish a universal probation period.
+
+2.5 Changes to personal or employment details
+Employees should notify HR of relevant changes using the approved HR process. Sensitive information should not be sent through public chat channels or unapproved file-sharing services.
+
+3. WORKING HOURS, ATTENDANCE, AND TIME RECORDS
+3.1 Standard schedule
+For this fictional example, the standard office schedule is Monday through Friday, 9:00 AM to 6:00 PM, with a one-hour lunch break. This is a sample schedule only; team schedules, shift patterns, part-time arrangements, time zones, and local law may differ.
+
+3.2 Attendance and punctuality
+Employees are expected to attend agreed work commitments on time and inform their manager promptly if they expect to be late or absent. If an urgent situation prevents advance notice, employees should communicate as soon as reasonably possible.
+
+3.3 Recording time
+Employees whose roles require timesheets or shift records must record time accurately and submit records by the applicable deadline. Employees must not enter time on behalf of another person unless an approved process explicitly permits it.
+
+3.4 Overtime and additional hours
+Employees should obtain approval before working overtime where required by their team process or contract. Applicable compensation, time off, and eligibility depend on local law and employment terms. This sample handbook does not set a universal overtime rate.
+
+3.5 Meetings and availability
+Teams should schedule meetings with reasonable notice, respect time zones, and avoid unnecessary meetings. Employees should keep calendars reasonably accurate and communicate availability for time-sensitive work.
+
+3.6 Breaks
+Employees should take breaks in line with applicable requirements and workplace practices. Managers should encourage sustainable workloads and should not expect employees to be continuously available outside agreed working arrangements.
+
+4. LEAVE AND PUBLIC HOLIDAYS
+4.1 Annual leave entitlement
+For this fictional example, eligible full-time employees receive 21 working days of annual leave per calendar year. Part-time employees and employees who join or leave during the year may receive a pro-rated entitlement according to the applicable contract and local rules.
+
+4.2 Requesting annual leave
+Employees should submit annual leave requests through the approved HR system at least five working days before the intended leave date when practicable. Requests should identify the dates and provide enough notice for the team to plan coverage. Emergency circumstances should be discussed with the manager as soon as possible.
+
+4.3 Approval
+A manager reviews requests based on team coverage, business needs, fairness, and any applicable legal requirements. Employees should wait for approval before making non-refundable arrangements. The company should communicate a decision within a reasonable time.
+
+4.4 Carryover and unused leave
+Carryover, expiry, and payment for unused leave depend on the employee's contract and applicable law. Employees should check the HR system or ask HR rather than assume unused leave automatically carries over.
+
+4.5 Public holidays
+The public holidays applicable to an employee depend on the work location and local requirements. The HR calendar is the source of truth for the fictional company's office calendar. Shift-based teams may follow a different schedule.
+
+4.6 Leave planning
+Employees are encouraged to plan leave early, coordinate handovers, document urgent work, and set an appropriate out-of-office message. Managers should not request unnecessary personal details about an employee's leave.
+
+5. SICK LEAVE, MEDICAL APPOINTMENTS, AND WELLBEING
+5.1 Reporting illness
+Employees who are unable to work due to illness should inform their manager as soon as reasonably possible, following the team's absence reporting process. They should share expected availability where they can, but should not disclose more medical information than required by the applicable process.
+
+5.2 Medical documentation
+A medical certificate or other documentation may be required when permitted by applicable law and the company's approved process. Requirements can differ by location, duration of absence, and employment category. Employees should ask HR about the applicable process.
+
+5.3 Sick leave entitlement
+Sick leave eligibility, duration, pay, and documentation requirements are determined by applicable law and employment terms. This sample handbook intentionally does not define a universal sick leave entitlement.
+
+5.4 Medical appointments
+Where possible, employees should schedule routine appointments to reduce work disruption, but health needs take priority. Employees should coordinate planned time away with their manager and use the relevant leave or time-off category.
+
+5.5 Wellbeing and support
+Employees are encouraged to raise workload concerns early. Managers should discuss reasonable adjustments, available support resources, and practical workload changes where appropriate. Emergency health or safety situations should be directed to local emergency services or the designated workplace response process.
+
+5.6 Return to work
+After an extended absence, the employee and manager may agree on a practical return-to-work plan, consistent with applicable law, medical guidance where appropriate, and confidentiality expectations.
+
+6. REMOTE AND HYBRID WORK
+6.1 Eligibility
+Employees may request remote or hybrid work. Approval depends on job responsibilities, information-security requirements, performance expectations, customer commitments, team coverage, and applicable law.
+
+6.2 Request process
+The employee should submit a request to the manager using the approved process. The request should identify the proposed arrangement, working location, schedule, and expected duration. HR or IT may need to review requests involving cross-border work or sensitive data.
+
+6.3 Approval and review
+Managers should document decisions and apply criteria consistently. Remote arrangements may be reviewed when role duties, performance, security requirements, or business needs change. A remote-work arrangement is not automatically permanent unless the written agreement says so.
+
+6.4 Remote-work expectations
+Employees working remotely should:
+- Maintain agreed working hours and communication channels.
+- Protect confidential documents and screens from unauthorized viewing.
+- Use approved devices and secure network connections.
+- Keep work files in approved company systems.
+- Report lost devices, suspicious messages, and potential data exposure promptly.
+- Maintain a suitable and safe workspace.
+
+6.5 Working from another country
+Employees must not assume that permission to work remotely includes permission to work from another country. Cross-border work can affect immigration, tax, payroll, data protection, and security obligations. Obtain written approval from HR and the relevant specialist teams before working from another country.
+
+6.6 Equipment and expenses
+The company will specify which equipment and expenses are provided or reimbursed. Employees should not purchase expensive equipment expecting reimbursement without prior approval.
+
+7. COMPENSATION, PAYROLL, AND BENEFITS
+7.1 Salary and pay terms
+Salary, currency, pay frequency, allowances, and contractual terms are stated in the employee's offer or employment agreement. This handbook does not set a universal salary or pay rate.
+
+7.2 Payroll schedule
+For this fictional example, payroll is processed monthly, with payment targeted for the last business day of the month. Actual payment dates, bank processing times, and local requirements may vary by contract and work location.
+
+7.3 Payroll questions
+Employees should review their payslip and report discrepancies to Payroll or HR through the approved confidential channel. Include the pay period and a clear description of the issue; avoid sending full bank credentials or passwords.
+
+7.4 Deductions
+Deductions are made only where authorized by applicable law, contract, or employee consent where required. Employees should contact Payroll if a deduction is unclear.
+
+7.5 Benefits
+Eligibility for insurance, retirement plans, allowances, and other benefits depends on employment category, location, plan rules, and the employee's agreement. The relevant plan documents govern details.
+
+7.6 Bank details
+Employees should update bank details only through the approved HR or payroll system. HR will not ask employees to disclose online banking passwords, one-time passcodes, or PINs.
+
+8. CODE OF CONDUCT AND PROFESSIONAL BEHAVIOR
+8.1 Professional behavior
+Employees are expected to act honestly, responsibly, and respectfully. They should communicate professionally, avoid abusive behavior, and take responsibility for their decisions and work.
+
+8.2 Use of company resources
+Company equipment, accounts, software, and facilities should be used for authorized purposes. Limited personal use may be allowed if it does not create security, legal, cost, or productivity concerns and is consistent with the applicable policy.
+
+8.3 Accurate records
+Employees must not falsify timesheets, expenses, project status, credentials, or business records. Errors should be corrected promptly through the approved process.
+
+8.4 Communication
+Employees should share relevant information with colleagues who need it, protect confidential information, and avoid misleading statements. Disagreements should be handled constructively and escalated when necessary.
+
+8.5 Social media
+Employees should not disclose confidential company or customer information publicly. When discussing work in a personal capacity, employees should not imply they are authorized company spokespeople unless that authority has been granted.
+
+8.6 Company property
+Employees should take reasonable care of equipment, badges, keys, and records. Lost or stolen property should be reported promptly to IT, Security, or the manager.
+
+9. EQUAL OPPORTUNITY, ANTI-HARASSMENT, AND RESPECTFUL WORKPLACE
+9.1 Equal opportunity
+The fictional company aims to provide fair access to employment and development opportunities. Employment decisions should be based on job-related criteria and consistent processes, subject to applicable law.
+
+9.2 Harassment and bullying
+Harassment, bullying, threats, intimidation, and retaliation are not acceptable. Employees should report concerns through HR, a manager, or another designated channel. If the concern involves the employee's manager, the employee may use an alternative reporting route.
+
+9.3 Respectful communication
+Employees should avoid discriminatory slurs, degrading remarks, unwanted conduct, and repeated behavior that undermines another person's dignity. Differences of opinion should be discussed without personal attacks.
+
+9.4 Reasonable adjustments
+Employees who need workplace adjustments should contact HR or the designated support team. Requests should be handled confidentially and assessed under applicable law and company process.
+
+9.5 Confidentiality and non-retaliation
+Reports should be shared only with people who need the information to assess and address the concern. Retaliation against a person who raises a concern in good faith or participates in an investigation is prohibited.
+
+10. PERFORMANCE, LEARNING, AND CAREER DEVELOPMENT
+10.1 Goal setting
+Employees and managers should agree on clear, role-relevant objectives. Goals should be understandable, measurable where practical, and reviewed when priorities change.
+
+10.2 Feedback
+Managers should provide timely, specific, constructive feedback. Employees are encouraged to ask questions, identify obstacles, and discuss development needs.
+
+10.3 Performance reviews
+For this fictional example, formal performance discussions are expected at least twice per year. Teams may also hold quarterly check-ins. Actual review timing can vary by role and business cycle.
+
+10.4 Training requests
+Employees may request professional-development training relevant to their role. The manager reviews relevance, budget, timing, and business need. Approved training may require completion evidence or a short knowledge-sharing session.
+
+10.5 Internal opportunities
+Internal role opportunities should follow the company's approved recruitment process. Employees should discuss career goals with their manager or HR and review any eligibility criteria.
+
+10.6 Underperformance support
+If performance does not meet expectations, the manager should explain the gap, provide examples, clarify expected improvement, and agree on support and review dates. Formal processes must follow applicable law and company procedure.
+
+11. INFORMATION SECURITY AND ACCEPTABLE USE
+11.1 General rule
+Employees must protect company and customer information and use approved systems for business work. Access should be limited to what is needed for the employee's role.
+
+11.2 Passwords and authentication
+Use strong, unique passwords and multi-factor authentication where available. Never share passwords, authentication codes, recovery keys, or security tokens. Report suspected account compromise immediately.
+
+11.3 Devices and updates
+Use company-approved devices and keep operating systems, browsers, and security tools updated. Do not disable security controls or install unapproved software that could expose company information.
+
+11.4 Email and phishing
+Be cautious with unexpected attachments, links, urgent payment requests, and messages asking for credentials. Verify unusual requests through a separate trusted channel. Report suspicious messages using the company's security-reporting process.
+
+11.5 Data storage and transfer
+Store company information in approved locations. Do not move confidential files to personal email, public file-sharing sites, or unapproved removable media. Use approved encryption and transfer methods where required.
+
+11.6 Access control
+Do not access records or systems without authorization, even if technically possible. Do not share accounts. Request access through the approved process and report access that appears excessive or incorrect.
+
+11.7 Incident reporting
+Report lost devices, suspected malware, misdirected email, unauthorized access, accidental disclosure, and other potential security incidents immediately using the designated IT/Security channel. Do not hide mistakes; prompt reporting can reduce harm.
+
+11.8 Backups and continuity
+Business-critical work should be stored in approved systems with appropriate backup arrangements. Employees should follow recovery instructions and avoid creating unapproved copies of sensitive records.
+
+12. PRIVACY AND PERSONAL DATA
+12.1 Data minimization
+Collect, use, and share only personal data needed for an authorized purpose. Avoid including sensitive personal details in ordinary tickets, chat messages, or shared documents.
+
+12.2 Access and disclosure
+Personal data may be accessed only for legitimate work purposes and shared only with authorized recipients. Verify recipients before sending files, especially when they contain employee, customer, or applicant information.
+
+12.3 Retention and deletion
+Keep records only as long as required by the applicable retention schedule, contract, or law. Do not delete records subject to a legal hold or formal investigation. Use approved deletion methods.
+
+12.4 Data subject requests
+Requests to access, correct, or delete personal data should be forwarded to the designated privacy or HR team rather than handled informally by an employee who is not authorized.
+
+12.5 Privacy incidents
+If personal data is sent to the wrong recipient or exposed without authorization, report it immediately through the privacy/security incident process. Do not assume that recalling an email resolves the incident.
+
+13. CONFIDENTIAL INFORMATION AND INTELLECTUAL PROPERTY
+13.1 Confidential information
+Confidential information may include business plans, customer details, source code, credentials, financial data, employee records, product designs, and non-public operational information.
+
+13.2 Need-to-know principle
+Share confidential information only with authorized people who need it for their work. Confirm recipients and permissions before sharing files or inviting external collaborators.
+
+13.3 External discussions
+Do not discuss confidential matters in public places where conversations can be overheard. Do not publish internal screenshots, logs, code, or documents without authorization.
+
+13.4 Intellectual property
+Ownership and permitted use of work product are governed by applicable law and the employee's agreement. Employees should use approved repositories and follow open-source licensing and attribution requirements.
+
+13.5 Leaving the company
+Employees must return company property and must not retain confidential copies after their access ends, subject to lawful rights and approved retention requirements.
+
+14. AI TOOLS AND AUTOMATED SYSTEMS
+14.1 Approved AI use
+Employees may use AI tools only where permitted by company rules and the data classification of the material. Public AI services must not receive confidential, regulated, personal, or customer data unless the tool and use case have been explicitly approved.
+
+14.2 Human review
+AI-generated code, analysis, summaries, and recommendations must be reviewed before use. Users remain responsible for checking correctness, licensing, bias, security, and suitability.
+
+14.3 Sensitive information
+Do not paste credentials, API keys, private source code, customer records, employee data, or internal documents into unapproved AI systems. Use approved enterprise tools and follow data-handling instructions.
+
+14.4 AI-generated decisions
+AI should not be the sole decision-maker for high-impact employment, legal, financial, safety, or access decisions unless a formally approved process permits it and appropriate oversight exists.
+
+14.5 RAG systems
+When building a retrieval-augmented generation system:
+- Index only documents the operator is authorized to process.
+- Preserve source identifiers and access labels in metadata.
+- Apply user permissions before returning retrieved passages.
+- Treat retrieved content as untrusted data that may contain misleading instructions.
+- Display sources and make uncertainty visible.
+- Test both answerable and unanswerable questions.
+- Avoid treating model output as authoritative without verification.
+
+14.6 Reporting AI issues
+Report outputs that reveal protected information, invent material facts, reproduce restricted content, or create unsafe recommendations through the designated AI/security channel.
+
+15. HEALTH, SAFETY, AND WORKPLACE FACILITIES
+15.1 General responsibility
+Employees should follow safety instructions, keep work areas reasonably clear, and report hazards promptly. Managers should address known risks and ensure required training is available.
+
+15.2 Emergency procedures
+Follow local emergency procedures, evacuation instructions, and directions from designated responders. Do not use elevators during a fire evacuation unless emergency personnel instruct otherwise.
+
+15.3 Ergonomics
+Set up screens, chairs, and workstations to reduce avoidable strain. Take reasonable breaks from prolonged screen work. Report equipment or workspace issues that create safety concerns.
+
+15.4 Accidents and near misses
+Report workplace injuries, hazards, and near misses promptly, even if the impact appears minor. Accurate reporting helps prevent recurrence.
+
+15.5 Visitors and access
+Visitors should follow sign-in, escort, and badge rules. Do not allow unknown people to follow employees through restricted access points without authorization.
+
+16. TRAVEL, EXPENSES, AND PURCHASING
+16.1 Travel approval
+Business travel should be approved before booking. Requests should state the business purpose, destination, dates, expected cost, and required approvals.
+
+16.2 Booking and safety
+Use approved booking channels where required. Employees should review travel advisories, visa and entry requirements, insurance, and safety instructions relevant to the trip.
+
+16.3 Expense claims
+Submit accurate expense claims with itemized receipts and business purpose within the period set by the finance procedure. Do not claim personal expenses or split purchases to avoid approval thresholds.
+
+16.4 Reimbursement
+Reimbursement depends on policy eligibility, complete documentation, and approval. If a receipt is unavailable, follow the documented exception process rather than creating a replacement receipt.
+
+16.5 Purchasing
+Employees must use approved vendors and purchasing channels where required. Commitments must not be made on behalf of the company without delegated authority.
+
+17. CONFLICTS OF INTEREST, GIFTS, AND OUTSIDE WORK
+17.1 Conflicts of interest
+A conflict may arise when personal, financial, family, or outside interests could affect—or appear to affect—work decisions. Employees should disclose potential conflicts to their manager or Compliance/HR promptly.
+
+17.2 Gifts and hospitality
+Gifts, meals, and hospitality must be modest, transparent, lawful, and consistent with the applicable gifts policy. Cash or cash-equivalent gifts should not be accepted. When unsure, decline politely and ask Compliance or HR.
+
+17.3 Outside employment
+Employees should disclose outside work when required by contract or policy, especially if it creates competition, affects working hours, uses company resources, or creates a conflict. Do not use company confidential information for outside work.
+
+17.4 Supplier and customer relationships
+Purchasing and supplier decisions should be based on legitimate business criteria. Employees must not accept personal benefits in exchange for favorable treatment.
+
+18. REPORTING CONCERNS AND INVESTIGATIONS
+18.1 Reporting channels
+Employees may raise concerns with their manager, HR, Compliance, Security, Privacy, or another formally designated reporting channel. If one route is inappropriate because of the subject or person involved, use an alternative channel.
+
+18.2 Good-faith reports
+Reports should be made honestly and with as much relevant detail as practical. Knowingly fabricated allegations may themselves be a conduct issue, but a report should not be punished merely because it cannot be substantiated.
+
+18.3 Investigation process
+The company should assess reports promptly, preserve relevant records, limit information to people who need it, and use impartial investigators where appropriate. The process and timing depend on the nature and complexity of the concern.
+
+18.4 Cooperation
+Employees asked to participate in an investigation should provide truthful information and preserve relevant materials. They should not retaliate against participants or interfere with the process.
+
+18.5 Confidentiality
+Absolute confidentiality cannot always be promised because information may need to be shared to investigate, respond, or comply with law. Information should be handled as discreetly as practical.
+
+19. DISCIPLINARY PROCESS AND APPEALS
+19.1 Fair process
+Where a conduct or performance issue requires formal action, the company should explain the concern, give the employee an appropriate opportunity to respond, and consider relevant evidence before reaching a decision, consistent with applicable law and policy.
+
+19.2 Possible outcomes
+Depending on circumstances, outcomes may include coaching, additional training, a documented warning, a performance improvement plan, restriction of access, or termination of employment. The appropriate response depends on severity, evidence, prior history, contract, and local law.
+
+19.3 Serious misconduct
+Allegations involving violence, serious harassment, fraud, theft, major security breaches, or deliberate disclosure of sensitive information may require urgent protective steps while the matter is reviewed. Any action must follow applicable law and approved procedures.
+
+19.4 Appeal or review
+Employees should follow the review or appeal route and deadline communicated in the decision letter or applicable procedure. HR can explain the process. This sample handbook does not establish a universal appeal deadline.
+
+20. RESIGNATION, TERMINATION, AND OFFBOARDING
+20.1 Notice
+Employees should provide notice in the form and period specified in their employment agreement and applicable law. HR should confirm the final working date and any handover requirements.
+
+20.2 Handover
+Employees should document active work, transfer files to approved locations, identify key contacts, and return company property. Handover should not include sharing passwords; account access should be managed by IT.
+
+20.3 Final pay and benefits
+Final pay, unused leave, benefits, and required documents are handled according to the employment agreement and applicable law. Employees should direct questions to HR or Payroll.
+
+20.4 Access removal
+IT should remove or adjust access according to the approved offboarding schedule. Managers should identify business records that must be retained and ensure ownership is transferred.
+
+20.5 Return of property
+Laptops, badges, keys, storage devices, and other company property should be returned by the agreed deadline. Lost or damaged items should be reported honestly.
+
+20.6 Continuing obligations
+Confidentiality, intellectual property, and other obligations may continue after employment ends where provided by contract and applicable law.
+
+21. BUSINESS CONTINUITY AND EMERGENCY COMMUNICATIONS
+21.1 Continuity plans
+Teams should maintain practical instructions for critical work, key contacts, system dependencies, and recovery priorities. Critical documents should be stored in approved shared systems.
+
+21.2 Service disruption
+Report major outages using the designated incident channel. Include the affected system, business impact, approximate start time, and steps already attempted. Do not speculate about root cause before evidence is available.
+
+21.3 Emergency communication
+Follow instructions from designated incident leaders. Share status updates through approved channels and avoid publishing unverified or confidential information.
+
+21.4 Remote continuity
+When offices are inaccessible, employees should follow the company's approved remote-work and safety instructions. Do not access sensitive systems from unsafe or unapproved networks.
+
+22. FREQUENTLY ASKED QUESTIONS
+Q1. How many days of annual leave does a full-time employee receive?
+A. In this fictional example, eligible full-time employees receive 21 working days of annual leave per calendar year. Actual entitlements must be confirmed against the relevant employment agreement and local requirements.
+
+Q2. How early should I request annual leave?
+A. Submit the request at least five working days in advance when practicable. Wait for approval before making non-refundable plans.
+
+Q3. What are the standard working hours?
+A. The example schedule is Monday to Friday, 9:00 AM to 6:00 PM, with a one-hour lunch break. Individual arrangements may differ.
+
+Q4. Can I work remotely?
+A. You may request remote or hybrid work. Approval depends on role requirements, team coverage, security, and business needs.
+
+Q5. Can I work from another country while working remotely?
+A. Do not assume this is allowed. Obtain written approval from HR and relevant specialist teams because immigration, tax, payroll, privacy, and security rules may apply.
+
+Q6. What should I do if I am sick?
+A. Inform your manager as soon as reasonably possible and follow the local absence reporting process. Ask HR about documentation and entitlement requirements.
+
+Q7. When is payroll processed?
+A. The fictional example targets the last business day of each month. The employee's contract, local requirements, and payroll communications govern the actual schedule.
+
+Q8. What should I do if I suspect phishing?
+A. Do not click suspicious links or provide credentials. Report the message through the designated security channel and verify unusual requests using a separate trusted channel.
+
+Q9. Can I paste company documents into a public AI chatbot?
+A. Not unless the tool and use case are explicitly approved for that data classification. Never submit credentials or sensitive information to an unapproved service.
+
+Q10. How do I report harassment if my manager is involved?
+A. Use an alternative route such as HR, Compliance, or another designated reporting channel.
+
+Q11. What if a question is not answered by this handbook?
+A. The RAG assistant should state that the information was not found in the available documents and direct the user to HR or the relevant specialist team. It should not invent a policy.
+
+Q12. Does this sample handbook define the legal minimum for leave or overtime?
+A. No. It is fictional demonstration content. Actual entitlements and legal obligations depend on applicable law, location, and contractual terms.
+
+Q13. Can I install any software on my work laptop?
+A. Use approved software and follow the IT process. Do not disable security controls or install tools that may expose company information.
+
+Q14. What should I do if I accidentally send a confidential file to the wrong person?
+A. Report the incident immediately through the security/privacy process. Do not assume deleting or recalling the message is enough.
+
+Q15. How do I request training?
+A. Discuss the need with your manager and submit a request through the approved process. Approval depends on relevance, timing, and available budget.
+
+Q16. How should I submit an expense claim?
+A. Use the approved expense system, provide accurate details and itemized receipts, and submit within the finance procedure's deadline.
+
+Q17. Who can access employee personal data?
+A. Only authorized people with a legitimate work purpose should access it. Send privacy questions or data requests to the designated team.
+
+Q18. What happens when I leave the company?
+A. Coordinate notice and handover with your manager and HR, return company property, transfer approved work records, and follow IT offboarding instructions.
+
+23. POLICY EXCEPTIONS AND DOCUMENT REVIEW
+23.1 Exceptions
+Any exception must be documented and approved by the role authorized under the relevant policy. Employees should not assume that informal verbal approval overrides a formal requirement.
+
+23.2 Review cycle
+This fictional handbook is reviewed annually and when material legal, operational, security, or organizational changes occur. The policy owner should record the revision date and summarize significant changes.
+
+23.3 Feedback
+Employees may send suggested corrections or additions to HR. The policy owner should assess whether the suggestion is accurate, relevant, and consistent with other approved policies.
+
+APPENDIX A — RAG TEST QUESTIONS
+Use these prompts to test retrieval and answer generation:
+- How many days of annual leave do eligible full-time employees receive?
+- How far in advance should annual leave be requested?
+- What are the standard working hours in the sample policy?
+- Who approves remote-work requests?
+- Can employees work from another country without written approval?
+- What should an employee do after receiving a suspicious email?
+- Is it acceptable to paste confidential source code into an unapproved public AI tool?
+- What should an employee do after accidentally sending a confidential file to the wrong person?
+- When is payroll targeted to be processed in this example?
+- What does the policy say about medical documentation?
+- Who should an employee contact if their manager is involved in a harassment concern?
+- What is the universal sick leave entitlement in this handbook?
+- What is the CEO's name?
+- What is the company's annual revenue?
+- Does this document specify an overtime pay rate?
+
+For questions whose answers are not included, the RAG application should clearly say that the information is not available in the indexed documents.
+
+APPENDIX B — EXAMPLE FACTS FOR EXPECTED ANSWERS
+- Sample annual leave: 21 working days per calendar year for eligible full-time employees.
+- Annual leave request lead time: at least five working days in advance when practicable.
+- Example standard schedule: Monday to Friday, 9:00 AM to 6:00 PM, with a one-hour lunch break.
+- Remote work: may be requested; manager approval and relevant reviews are required.
+- Cross-border remote work: written approval from HR and relevant specialist teams is required before working from another country.
+- Security concern: report immediately through the designated IT/Security channel.
+- Public AI tools: do not submit confidential or sensitive information unless explicitly approved.
+- Payroll example: targeted for the last business day of each month.
+- Sick leave and overtime: no universal entitlement or rate is specified in this sample handbook; refer to applicable law and employment terms.
+- CEO name and company revenue: not specified.
+
+END OF FICTIONAL SAMPLE POLICY

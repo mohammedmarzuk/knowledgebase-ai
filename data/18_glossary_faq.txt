@@ -1,0 +1,68 @@
+FICTIONAL TRAINING DOCUMENT — GLOSSARY AND RAG TEST QUESTIONS
+Document ID: KB-001 | Version: 1.0 | Owner: Knowledge Management
+This document includes definitions and test prompts for the fictional knowledge base.
+
+GLOSSARY
+Annual leave: Approved paid time away from work allocated under the employee's applicable agreement or policy.
+Approval matrix: A document describing which roles can approve particular decisions or spend levels.
+BM25: A keyword-retrieval method that ranks documents based partly on query-term frequency and document statistics.
+Chunk: A segment of source text indexed and retrieved by a RAG application.
+Embedding: A numerical representation of text used to compare semantic similarity.
+ETL: Extract, transform, load; a process for moving and preparing data from source systems to target systems.
+Faithfulness: The extent to which a generated answer is supported by the supplied evidence.
+Hybrid search: A retrieval approach that combines semantic search with keyword-based retrieval.
+Idempotency: A property where repeating an operation with the same logical input does not cause unintended additional effects.
+LLM: Large language model, a model trained to process and generate text.
+MFA: Multi-factor authentication, which requires more than one form of evidence to authenticate.
+PII: Personally identifiable information; information that can identify or be linked to an individual.
+Precision (retrieval): The proportion of retrieved passages that are relevant to the query.
+Recall (retrieval): The proportion of relevant passages that the system successfully retrieves.
+RAG: Retrieval-augmented generation, a pattern that supplies retrieved external information to a generative model.
+Reranker: A model or algorithm that reorders candidate passages by relevance to a query.
+Service-level target: A stated performance objective for a service, such as an acknowledgement time.
+Watermark: A value used to track progress through incremental data processing.
+
+FREQUENTLY ASKED QUESTIONS
+Q: Is the ExampleWorks policy a real company's policy?
+A: No. All policies and operational values in this project are fictional training examples.
+
+Q: What is the annual leave entitlement in the sample leave document?
+A: The fictional sample states 21 working days per completed leave year for eligible full-time employees.
+
+Q: How early should planned annual leave be requested?
+A: The sample says at least five working days in advance whenever practical.
+
+Q: What is the sample payroll target?
+A: The last business day of each month.
+
+Q: Can someone work from another country without written approval?
+A: No. The fictional remote-work document requires written approval from the manager and People Operations before cross-border work begins.
+
+Q: Who is the CEO of ExampleWorks?
+A: The sample documents do not specify a CEO's name. The assistant should say the information is not available in the indexed knowledge base.
+
+Q: What is the exact expense approval limit?
+A: The sample finance documents do not specify a universal monetary limit. The current finance approval matrix would need to be checked.
+
+Q: Does the sample policy state a legal sick-leave entitlement?
+A: No. It directs the employee to HR because actual requirements depend on location and employment terms.
+
+Q: What should a user do if a policy answer is missing?
+A: Check the retrieved source passages, search related documents, and ask the relevant document owner. The assistant should not invent a rule.
+
+Q: Does local Ollama use mean data security no longer matters?
+A: No. Local files, logs, model caches, and vector databases still need appropriate protection.
+
+RAG TEST QUESTIONS — EXPECTED BEHAVIOUR
+1. "How many annual leave days are available?" — retrieve the leave document and state the fictional entitlement with its eligibility condition.
+2. "When do I need to request annual leave?" — retrieve the leave document and state five working days in advance whenever practical.
+3. "What day is payroll?" — state the fictional target of the last business day of the month.
+4. "Can I work remotely from another country?" — state that written manager and People Operations approval is required before work begins.
+5. "What is the CEO's name?" — abstain; the dataset does not specify it.
+6. "What is the expense approval cap?" — abstain on a numeric cap and direct the user to the current finance matrix.
+7. "What should I do if I shared my password?" — report the possible exposure, change it through the official service, and contact Security.
+8. "What is the difference between a risk and an issue?" — a risk is uncertain; an issue has already occurred.
+9. "What does RAG stand for?" — retrieval-augmented generation.
+10. "Can I paste confidential data into any AI tool?" — no; only use data permitted by the tool's approved classification and configuration.
+11. "What should a pipeline record?" — run ID, start/end times, row counts, status, and useful error details.
+12. "What is a good response to a missing policy answer?" — clearly state that the indexed documents do not contain enough evidence and suggest checking the document owner.

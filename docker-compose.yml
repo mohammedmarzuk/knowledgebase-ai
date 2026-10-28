@@ -1,0 +1,48 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "127.0.0.1:11434:11434"
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      ollama:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL:-qwen3:4b}
+      RAG_TOP_K: ${RAG_TOP_K:-3}
+      RAG_CHUNK_WORDS: ${RAG_CHUNK_WORDS:-180}
+      RAG_CHUNK_OVERLAP: ${RAG_CHUNK_OVERLAP:-35}
+      RAG_CANDIDATE_MULTIPLIER: ${RAG_CANDIDATE_MULTIPLIER:-4}
+      RAG_MAX_CONTEXT_CHARS: ${RAG_MAX_CONTEXT_CHARS:-18000}
+      RAG_STREAMING_DEFAULT: ${RAG_STREAMING_DEFAULT:-true}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-500}
+      STREAMLIT_SERVER_MAX_UPLOAD_SIZE: "${MAX_UPLOAD_MB:-500}"
+      STREAMLIT_SERVER_MAX_MESSAGE_SIZE: "${STREAMLIT_MAX_MESSAGE_MB:-550}"
+      RAG_DATA_DIR: /app/data
+      RAG_DB_DIR: /app/chroma_db
+      RAG_ANALYTICS_PATH: /app/runtime/analytics_events.jsonl
+      RAG_ANALYTICS_ENABLED: ${RAG_ANALYTICS_ENABLED:-true}
+    volumes:
+      - ./data:/app/data
+      - chroma_data:/app/chroma_db
+      - analytics_data:/app/runtime
+
+volumes:
+  ollama_data:
+  chroma_data:
+  analytics_data:

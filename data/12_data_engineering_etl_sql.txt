@@ -1,0 +1,40 @@
+FICTIONAL TRAINING DOCUMENT — DATA ENGINEERING, ETL AND SQL STANDARDS
+Document ID: DATA-002 | Version: 1.0 | Owner: Data Platform
+Fictional guidance for RAG and data engineering practice.
+
+1. Pipeline design
+A data pipeline should document its source systems, schedule, transformations, output tables, owner, dependencies, and recovery procedure. Pipelines should be idempotent where practical, meaning that rerunning the same logical input does not create unintended duplicates. Each run should record a run identifier, start and end time, row counts, status, and meaningful error information.
+
+2. Extract, transform, load
+Extraction should use authorized credentials and read only required fields. Transformations should be version-controlled and testable. Loading should define how inserts, updates, deletes, late-arriving records, and duplicate events are handled. A pipeline should not silently discard records that fail validation. Invalid records should be quarantined or reported with enough detail for remediation, subject to data privacy controls.
+
+3. SQL style
+Use explicit column names instead of SELECT * in production transformations where stability matters. Qualify ambiguous column names, use meaningful aliases, and format complex joins clearly. Filter early when it reduces unnecessary processing and preserves correct semantics. Avoid implicit type conversions that can produce incorrect comparisons or prevent index use. Query plans should be inspected before assuming an index will improve performance.
+
+4. Transactions and stored procedures
+Stored procedures should have clear inputs, outputs, error handling, and transaction boundaries. A transaction should be as short as practical and should commit only when its operations succeed. Errors should not be swallowed without a recorded reason. Database changes should be reviewed and tested against representative data volumes. Schema migrations should include a rollback or forward-fix plan.
+
+5. Data quality
+Common checks include not-null constraints, valid ranges, uniqueness, referential integrity, accepted values, freshness, and reconciliation between source and target counts. Thresholds should be defined by the data owner based on business impact. A failed critical quality check should stop publication or mark the output as untrusted until reviewed. Quality results should be retained so trends can be identified.
+
+6. Incremental loading
+Incremental pipelines need a reliable watermark such as a source update timestamp or monotonically increasing identifier. The process should account for late updates, clock differences, deleted records, and reruns. A watermark should advance only after the corresponding batch is safely processed. For uncertain source semantics, perform reconciliation against a known period before relying on incremental results.
+
+7. Scheduling and dependencies
+Schedules should reflect data availability, business deadlines, system capacity, and dependency chains. A downstream job should not run on incomplete upstream data unless it explicitly supports partial results. Retries should use backoff and have a defined maximum. Repeated failure should alert an accountable owner and create an incident where appropriate.
+
+8. Monitoring and recovery
+Track success rate, duration, throughput, failed records, source freshness, and output row counts. A runbook should explain how to pause, rerun, backfill, and validate the pipeline. Before backfilling, estimate the effect on downstream tables and shared compute. Never rerun a destructive job without understanding its idempotency and recovery options.
+
+9. Data access and secrets
+Use separate service identities for separate workloads when practical. Credentials should be stored in approved secret management and rotated under the relevant standard. Production access should be limited and audited. Test environments should use synthetic or approved masked data. SQL logs should not expose passwords or unnecessary personal data.
+
+10. Change management
+Changes to table schemas, field meaning, partitioning, or data contracts should be communicated to downstream consumers. Maintain lineage from source to published dataset. Deprecate fields through a documented transition rather than removing them unexpectedly. Data product owners should define supported freshness and quality expectations.
+
+Quick retrieval facts:
+- Pipelines should record run IDs, status, timestamps, and row counts.
+- Idempotency helps make reruns safe.
+- Watermarks should advance only after successful processing.
+- Critical data-quality failures should prevent publication or mark output untrusted.
+- Do not log credentials or unnecessary personal information.

@@ -1,0 +1,37 @@
+FICTIONAL TRAINING DOCUMENT — LEAVE, ATTENDANCE AND WORK SCHEDULES
+Document ID: HR-002 | Version: 1.0 | Owner: People Operations
+All values below are fictional sample values for RAG practice only.
+
+1. Standard schedule
+For this sample knowledge base, the standard office schedule is Monday through Friday, 9:00 a.m. to 6:00 p.m., with a one-hour unpaid lunch break. Some teams may use approved shifts or flexible arrangements. Team coverage and customer commitments must be considered when adjusting schedules. Employees should record working time and leave using the designated system. This example schedule is not a promise of employment terms.
+
+2. Annual leave
+Eligible full-time employees in this fictional example receive 21 working days of annual leave per completed leave year. Part-time entitlement should be calculated proportionally under the applicable agreement. New starters and employees who leave during the year may receive prorated entitlement under the sample payroll rules. Employees should submit planned leave requests at least five working days before the first day away whenever practical. Longer periods or popular holiday dates may require more notice so the manager can arrange coverage. A request is not approved until the designated manager confirms it in the leave system. Employees should not assume that a submitted request is automatically approved.
+
+3. Leave approval and handover
+Before taking planned leave, the employee should document open work, deadlines, customer commitments, escalation contacts, and any access or approvals that a colleague may need. Managers should review requests fairly and consider coverage, previously approved leave, and business-critical events. If a request cannot be approved for the requested dates, the manager should explain the operational reason and discuss alternatives. Employees should not be asked to disclose unnecessary personal details about ordinary leave requests.
+
+4. Sick leave and unexpected absence
+An employee who cannot work due to illness should notify their manager as soon as reasonably practical and use the official absence process. The employee should provide any documentation required by their applicable agreement or local rules through the approved confidential channel. Medical details should not be posted in a public team chat. Managers should record absence factually and refer questions about eligibility or documentation to HR. The fictional knowledge base intentionally does not specify statutory sick-leave entitlements because real requirements vary by location and employment status.
+
+5. Public holidays and alternative schedules
+Holiday calendars may vary by country, location, and team. Employees should check the official calendar for their assigned work location. If a role requires holiday coverage, the manager should communicate the schedule and applicable compensation or time-off arrangement under the governing agreement. Do not infer that a holiday observed in one country applies to employees assigned to another location.
+
+6. Family, caregiving and other leave
+Requests relating to parental responsibilities, caregiving, compassionate circumstances, or other special leave should be routed confidentially to HR. The actual entitlement and required documents depend on applicable law and the employee's agreement. Managers should avoid making eligibility promises before HR confirms the applicable rule. Where the sample knowledge base lacks a rule, the correct answer is that the information is not specified and must be checked with HR.
+
+7. Flexible work and attendance
+Flexible start and finish times may be approved when job responsibilities, team collaboration, and coverage allow. Employees should keep their calendar accurate and attend required meetings or communicate conflicts promptly. Repeated lateness or unexplained absence should be addressed privately, factually, and consistently. Managers should first establish the facts and consider whether a process, workload, accessibility, or other issue needs attention. Disciplinary steps must follow the formal process rather than an informal assumption.
+
+8. Overtime and time recording
+Overtime must be authorized in advance by the manager except where an emergency process permits retrospective approval. Employees should accurately record actual working time and must not alter records to obtain an unearned payment or conceal time worked. The sample dataset does not define a universal overtime rate; employees should check their agreement and local rules. Managers are responsible for reviewing exceptions and correcting inaccurate records through the approved process.
+
+9. Absence handover
+For planned absence, the employee should set an appropriate calendar status, document urgent items, and identify a backup contact. For unexpected absence, managers should arrange coverage without requiring coworkers to access personal accounts. Shared team files and approved work systems should hold business-critical records. Passwords must never be handed over as a substitute for proper access delegation.
+
+Quick retrieval facts:
+- Fictional annual leave entitlement: 21 working days per completed leave year for eligible full-time employees.
+- Planned annual leave should be requested at least five working days in advance whenever practical.
+- Standard sample schedule: Monday–Friday, 9 a.m.–6 p.m., with a one-hour lunch break.
+- Sick-leave legal entitlements are not specified in this sample document; confirm with HR.
+- Overtime requires prior manager authorization unless an approved emergency process applies.

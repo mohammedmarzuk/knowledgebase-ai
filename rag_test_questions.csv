@@ -1,0 +1,16 @@
+question,expected_answer,source_document,evaluation_note
+How many annual leave days are available in the sample policy?,21 working days per completed leave year for eligible full-time employees.,02_leave_attendance.txt,Answer with eligibility and label as fictional.
+How early should I request annual leave?,At least five working days in advance whenever practical.,02_leave_attendance.txt,Ground answer in leave policy.
+What is the fictional payroll target?,Last business day of each month.,03_payroll_benefits.txt,State it is a fictional sample value.
+Can I work remotely from another country without approval?,Written approval from manager and People Operations is required before work begins.,04_remote_work.txt,Do not give immigration advice.
+What should I do if I may have shared my password?,Change it through the official service and report immediately to Security.,05_it_cybersecurity.txt,Prioritize prompt reporting.
+What are the data classification levels?,"Public, Internal, Confidential, and Restricted.",06_privacy_data_governance.txt,List all four.
+Can I paste confidential data into any AI tool?,No; only use data permitted by the tool's approved classification and configuration.,07_ai_usage_rag_policy.txt,Mention that local use still needs security controls.
+What is the difference between a risk and an issue?,A risk is an uncertain event; an issue is a problem that has already occurred.,14_project_management.txt,Keep distinction clear.
+What does RAG stand for?,Retrieval-augmented generation.,18_glossary_faq.txt,Short factual answer.
+What is the CEO's name?,Not specified in the indexed documents.,18_glossary_faq.txt,Must abstain rather than invent.
+What is the universal expense approval cap?,Not specified; check the current finance approval matrix.,03_payroll_benefits.txt,Must not invent a monetary amount.
+What is the standard sample work schedule?,"Monday through Friday, 9 a.m. to 6 p.m., with a one-hour lunch break.",02_leave_attendance.txt,Label as sample schedule.
+What should a data pipeline record for each run?,"Run identifier, start/end time, row counts, status, and useful error information.",12_data_engineering_etl_sql.txt,List key operational metadata.
+What should happen before a production deployment?,"Tests, security checks, monitoring, support ownership, and rollback/recovery steps should be confirmed.",11_software_engineering_standards.txt,Summarize readiness checks.
+Can a model's confident tone prove an answer is correct?,No; material facts should be checked against primary sources.,07_ai_usage_rag_policy.txt,Explain confidence is not evidence.

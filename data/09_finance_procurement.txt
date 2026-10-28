@@ -1,0 +1,37 @@
+FICTIONAL TRAINING DOCUMENT — FINANCE, PURCHASING AND VENDOR MANAGEMENT
+Document ID: FIN-002 | Version: 1.0 | Owner: Finance and Procurement
+Fictional operational guidance for RAG testing only.
+
+1. Purchase planning
+A purchase request should state the business need, expected benefit, quantity, budget owner, delivery date, and any security or privacy implications. Teams should consider whether an existing contract or approved supplier can meet the need. Purchases must not be split into smaller transactions to avoid approval thresholds. If the current approval threshold is not included in the knowledge base, the requester should consult the latest finance matrix.
+
+2. Approval and ordering
+The requester should obtain required approvals before committing the organization to a purchase. A purchase order should be issued where the process requires one. Employees must not tell a vendor that a purchase is approved when approval is still pending. Emergency purchases should use the documented exception process and include a clear reason and retrospective review.
+
+3. Vendor onboarding
+Before a new vendor is engaged, Procurement should collect required business details and coordinate risk review. Depending on the service, review may include security, privacy, legal, financial stability, sanctions screening, and insurance. A vendor should not receive production data or system access before required reviews and agreements are complete. The business owner remains responsible for confirming that the service is needed and the access is proportionate.
+
+4. Contracts
+Contracts should be reviewed by authorized Legal or Procurement personnel before signature. Employees must not sign terms on behalf of the organization unless they have delegated authority. Contract records should include the final signed version, effective date, renewal date, service owner, commercial terms, and termination requirements. Changes should be recorded in an amendment or approved change document rather than relying on an informal email.
+
+5. Invoices and payment
+Invoices should be matched to the purchase order and evidence of receipt where applicable. Differences in quantity, price, tax, or delivery should be investigated before approval. Vendor bank-detail changes require independent verification using a known contact channel. Urgent payment requests that bypass controls should be treated as potential fraud. The employee approving an invoice should have sufficient evidence that the goods or services were received.
+
+6. Competitive sourcing
+Competitive quotes or a documented sole-source rationale may be required depending on value and risk. Evaluation criteria should be defined before comparing proposals and applied consistently. Personal relationships with bidders must be disclosed. Records should explain why the selected vendor best meets the business need, not merely that the vendor was preferred.
+
+7. Asset purchasing
+Equipment should be recorded in the asset register when required. The record should include an asset identifier, assigned owner, location, acquisition date, and status. Transfers and disposal should be documented. Data-bearing devices must be sanitized through an approved process before resale, recycling, or return to a vendor.
+
+8. Budget monitoring
+Budget owners should review committed and actual spend regularly, identify forecast overruns, and escalate material variances. A forecast should distinguish approved commitments from proposals that have not yet been approved. Teams should not hide spend by assigning it to an unrelated category or period.
+
+9. Vendor performance and offboarding
+Service owners should review delivery, quality, security obligations, support responsiveness, and contract milestones. If performance falls below expectations, document the issue, agree corrective actions, and escalate according to the contract. At the end of a relationship, revoke vendor access, recover assets, confirm return or deletion of data where applicable, and close open invoices.
+
+Quick retrieval facts:
+- Do not split purchases to evade approval limits.
+- Vendor bank-detail changes require independent verification.
+- Contract signatures require delegated authority.
+- Production data or system access should not be provided before required vendor reviews and agreements.
+- Check the current finance matrix when an approval threshold is not specified.

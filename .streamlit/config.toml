@@ -1,0 +1,16 @@
+[server]
+# Maximum size of an individual uploaded file, in MB.
+maxUploadSize = 500
+# Maximum size of a single WebSocket message/request, in MB.
+maxMessageSize = 550
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#435cf5"
+backgroundColor = "#f6f8fc"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#172033"
+font = "sans serif"

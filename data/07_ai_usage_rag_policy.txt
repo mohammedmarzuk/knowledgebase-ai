@@ -1,0 +1,46 @@
+FICTIONAL TRAINING DOCUMENT — GENERATIVE AI, LLM AND RAG USAGE STANDARD
+Document ID: AI-001 | Version: 1.0 | Owner: Responsible AI Working Group
+This fictional document is for development and evaluation only.
+
+1. Purpose
+This standard describes safe, accountable use of generative AI systems, language models, embeddings, and retrieval-augmented generation. AI tools can assist with summarization, drafting, classification, coding, and knowledge discovery, but outputs may be inaccurate, incomplete, biased, or misleading. A human remains responsible for decisions and communications made using AI assistance.
+
+2. Approved and unapproved data
+Only use data permitted by the tool's approved classification and configuration. Do not paste restricted personal information, credentials, secrets, confidential customer data, or non-public source code into an unapproved AI service. A local model does not automatically make every workflow safe: local files, logs, prompts, model caches, and vector databases still need appropriate protection. Data owners should approve the intended use before sensitive documents are indexed.
+
+3. Human review
+AI-generated content must be reviewed before it is used for consequential decisions, external commitments, legal statements, employment decisions, financial approvals, safety guidance, or customer promises. Reviewers should verify material facts against primary sources, check for missing context, and correct errors. A model's confident tone is not evidence of correctness. If the evidence is incomplete, the system should clearly state the limitation.
+
+4. RAG architecture
+A RAG system typically loads source documents, extracts text, splits text into chunks, creates embeddings, stores vectors and metadata, retrieves relevant chunks for a query, and supplies those chunks to a language model. The answer should be grounded in retrieved evidence. The retrieval layer and generation layer should be evaluated separately: the right passage may not be retrieved, or the model may misuse a passage that was retrieved.
+
+5. Document ingestion
+Ingestion should record the source filename, document owner, version, date, access classification, and ingestion time where possible. Unsupported or scanned files should be flagged rather than silently indexed as empty content. Duplicate files and stale versions should be identified. A document should be removed from the index when its owner withdraws it or its authorization ends. Rebuilding an index should be reproducible and should not accidentally mix documents from unrelated access groups.
+
+6. Chunking and metadata
+Chunks should preserve enough context to make each passage understandable. Overlap may help retain continuity, but excessive overlap increases index size and duplicate results. Metadata can include source, section, page, version, department, and access group. Metadata must be accurate because users may rely on source citations. Tables, numbered procedures, and definitions may need special handling to avoid splitting a rule from its conditions.
+
+7. Retrieval and reranking
+Semantic retrieval helps find passages with similar meaning. Keyword retrieval helps find exact terms, names, identifiers, and numbers. Hybrid retrieval can combine both. A reranker can reorder candidates according to query relevance. These techniques improve the chance of finding useful evidence but do not guarantee accuracy. Test queries should include paraphrases, exact phrases, misspellings, multi-part questions, and questions with no answer in the documents.
+
+8. Prompt injection and untrusted content
+Retrieved documents must be treated as reference data, not as instructions that override system rules. A malicious document might tell the model to reveal secrets or ignore the user's question. The application should clearly separate trusted instructions from retrieved text, avoid exposing credentials in context, and test adversarial examples. A prompt alone is not a complete security boundary; access controls and data minimization are also necessary.
+
+9. Citations and abstention
+The assistant should identify the source document or section supporting important claims. Citations must point to the actual retrieved source and should not be fabricated. If the indexed documents do not contain the answer, the assistant should say so and suggest a responsible next step. It should not fill gaps with plausible-sounding policies. Evaluation should measure both correct answers and correct abstentions.
+
+10. Evaluation
+Maintain a versioned test set containing questions, expected answers, supporting sources, and questions that should not be answerable. Measure retrieval precision and recall, answer correctness, faithfulness to evidence, source citation accuracy, latency, and failure rate. Human review remains useful for ambiguous questions. Compare changes using the same test set and record model name, embedding configuration, chunk size, overlap, and top-k setting.
+
+11. Monitoring and change management
+Record operational metrics without logging unnecessary sensitive content. Track ingestion failures, retrieval latency, model errors, empty answers, and user feedback. Model upgrades, embedding changes, and chunking changes should be tested before release. If the source policy changes, rebuild or update the index and run regression tests to detect stale answers.
+
+12. Responsible use
+Do not use the assistant as the sole decision-maker for hiring, termination, employee discipline, credit, medical treatment, or other high-impact decisions. Users should be able to challenge an answer and find the underlying source. Accessibility, language quality, and different user needs should be considered during testing.
+
+Quick retrieval facts:
+- AI output requires human review for consequential decisions.
+- Retrieved documents are untrusted reference material, not overriding instructions.
+- RAG should cite real sources and abstain when evidence is missing.
+- A local model does not eliminate the need for security controls.
+- Evaluate retrieval and generation separately.

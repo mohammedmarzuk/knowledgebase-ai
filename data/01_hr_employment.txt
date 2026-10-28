@@ -1,0 +1,40 @@
+FICTIONAL TRAINING DOCUMENT — HR AND EMPLOYMENT HANDBOOK
+Document ID: HR-001 | Version: 1.0 | Owner: People Operations
+This document is part of a fictional knowledge base created for software development and RAG testing. It is not a real employer's policy and is not legal advice.
+
+1. Purpose and scope
+This handbook explains example processes for recruitment, employment records, onboarding, probation, role changes, development, and employee departures at ExampleWorks. It applies to fictional employees and managers in the sample environment. Where a signed employment agreement or local law differs, the real governing requirement would need to be reviewed by qualified HR or legal staff. The sample rules below exist only to make retrieval tests concrete.
+
+2. Recruitment and selection
+Hiring managers should document the role purpose, required skills, expected outcomes, reporting line, and budget approval before advertising a vacancy. Interview questions should relate to job requirements and be applied consistently to candidates. Interviewers should avoid questions about protected or irrelevant personal characteristics. Candidate records should be limited to information needed for selection and retained only according to an approved retention schedule. Reference checks should be performed only with appropriate notice and authorization. A verbal expression of interest is not an employment offer. An offer is considered ready for issue only after the authorized hiring approver has confirmed compensation, role level, location, and start date.
+
+3. Employment offers and records
+The written offer should identify the position, manager, compensation basis, expected work location, proposed start date, probation terms if applicable, and the documents that the candidate must complete. HR maintains the official personnel record. Managers should not keep unofficial copies of identity documents, medical information, or bank details in personal folders. Changes to an employee's legal name, contact details, emergency contact, or payment instructions should be submitted through the approved HR process and verified before being applied.
+
+4. Onboarding
+Before the first working day, the manager should prepare a role plan, assign a buddy where available, request necessary system access, and identify required training. IT access should follow least-privilege principles: new employees receive only the access needed for their responsibilities. The first-week checklist should include introductions, security awareness, privacy training, emergency procedures, team practices, and confirmation of role objectives. Equipment should be recorded against the employee or assigned asset record. Access must not be created by sharing another employee's account.
+
+5. Probation and confirmation
+For this fictional dataset, the standard probation period is three months unless a signed agreement specifies otherwise. The manager should schedule check-ins near weeks two, six, and ten and record clear feedback on performance, conduct, attendance, and training. Confirmation should be based on documented role expectations and a discussion with the employee. If additional time is considered necessary, the manager must consult HR and communicate the reason and next review date in writing. This sample period is illustrative and must not be treated as a real legal rule.
+
+6. Role changes and promotion
+A transfer, promotion, reporting-line change, or material change in duties should have a written business rationale and approvals from the receiving manager and HR. The employee should receive an updated role description and effective date. System permissions must be reviewed when responsibilities change. A promotion discussion does not become effective until the authorized approval and formal communication are complete. Managers should use consistent evidence such as scope, outcomes, skills, collaboration, and readiness rather than personal preference.
+
+7. Performance and development
+Employees and managers should agree on a small number of measurable objectives at the start of a review period. Objectives should identify an outcome, a measure, and a target date. Feedback should be timely and specific, describing observed behaviour or results and the impact on work. Development plans may include mentoring, courses, certifications, project rotations, or guided practice. Employees should be given a reasonable opportunity to respond to feedback and clarify constraints. Performance records should be factual, relevant, respectful, and stored in approved systems.
+
+8. Employee records and confidentiality
+Personnel information is confidential and should be accessed only for an authorized work purpose. Managers should not discuss individual salary, medical information, disciplinary details, or personal contact data in open team channels. HR may disclose information where required for a legitimate process, applicable law, or an authorized employee request. Corrections to inaccurate records should be submitted to HR with enough detail to identify the record. Requests for copies of records should be verified and routed through the official process.
+
+9. Workplace adjustments and support
+Employees who need a workplace adjustment should contact HR or the designated support channel. The request should be handled respectfully and shared only with people who need the information to assess and implement the adjustment. Managers should focus on the work-related requirement rather than asking for unnecessary personal details. The sample handbook does not determine legal eligibility or prescribe medical decisions; these require an appropriate case-specific review.
+
+10. Leaving the organization
+A resignation or termination process should have a recorded effective date and a designated HR owner. Managers should plan work handover, confirm asset return, identify business-critical knowledge, and request removal of system access at the correct time. Final pay and benefits questions should be routed to payroll or HR. Departure communications should not reveal confidential employee details. The offboarding checklist in the IT document also applies.
+
+Quick retrieval facts:
+- Fictional standard probation period: three months unless a signed agreement says otherwise.
+- Official personnel records are maintained by HR.
+- Role changes require documented approval and updated permissions.
+- New employees must not use another person's account.
+- Performance feedback should be specific, factual, and tied to role expectations.

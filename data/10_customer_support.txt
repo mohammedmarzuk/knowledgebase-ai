@@ -1,0 +1,36 @@
+FICTIONAL TRAINING DOCUMENT — CUSTOMER SUPPORT AND SERVICE OPERATIONS
+Document ID: OPS-002 | Version: 1.0 | Owner: Customer Experience
+All service targets below are fictional examples.
+
+1. Support principles
+Customer support should be respectful, accurate, timely, and transparent. Staff should confirm the customer's issue, clarify the impact, and explain the next step without promising an outcome that has not been verified. Customer data should be accessed only as needed to resolve the case. Identity should be verified before discussing account-specific information or making account changes.
+
+2. Ticket creation
+A ticket should contain a concise title, issue description, observed behaviour, time first noticed, affected service, business impact, troubleshooting already performed, and relevant attachments. Avoid including passwords, full payment card data, authentication codes, or unnecessary personal information. If a screenshot contains sensitive details, redact them before attaching it.
+
+3. Illustrative service targets
+In this fictional dataset, priority-one incidents should be acknowledged within 15 minutes, priority-two incidents within four business hours, and standard requests within one business day. These are sample training targets, not a real service-level agreement. The target measures acknowledgement, not necessarily complete resolution. If the real service target is not available in the indexed documents, the assistant should not substitute these sample values for a real organization's commitments.
+
+4. Priority classification
+Priority should reflect impact and urgency. A priority-one incident in this example means a critical service outage affecting many users with no reasonable workaround. Priority two means a major function is impaired for a team or important customer group. Standard priority applies to routine questions, minor defects, or requests with an available workaround. The support lead may adjust priority when new evidence changes the impact assessment and should record the reason.
+
+5. Escalation
+Escalate immediately when there is suspected data exposure, security compromise, safety risk, broad service outage, or a contractual deadline that may be missed. The escalation should identify the incident owner, current impact, actions taken, next update time, and support required. Do not wait for a routine ticket timer if the risk is urgent.
+
+6. Customer communication
+Use plain language and distinguish confirmed facts from hypotheses. If investigation is ongoing, tell the customer what is known, what remains uncertain, and when the next update is expected. Do not blame a colleague or vendor without evidence. Corrections should be communicated clearly. Any external statement about a security incident must be coordinated with the authorized response team.
+
+7. Complaint handling
+Listen without interrupting, acknowledge the concern, and confirm the desired resolution. Record the complaint objectively. If the issue cannot be resolved at first contact, assign an owner and explain the escalation route. Complaints involving discrimination, threats, privacy, fraud, or safety should be routed through the relevant specialist process.
+
+8. Service recovery and closure
+Before closing a ticket, confirm the action taken, the outcome, and any remaining limitation. Link relevant incident or problem records. If the customer has not responded, follow the documented closure process rather than inventing a deadline. Reopened cases should retain their history so the next responder can understand prior steps.
+
+9. Knowledge articles
+Support knowledge articles should have an owner, last-reviewed date, applicable product version, symptoms, cause where known, step-by-step resolution, and escalation conditions. Outdated articles should be marked for review. Do not publish internal troubleshooting that reveals secrets or security-sensitive details to a public audience.
+
+Quick retrieval facts:
+- Fictional acknowledgement targets: P1 15 minutes; P2 four business hours; standard one business day.
+- Acknowledgement is not the same as resolution.
+- Security, privacy, safety, and broad outage issues require prompt escalation.
+- Verify identity before account-specific disclosure or account changes.

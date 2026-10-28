@@ -1,0 +1,7 @@
+# Optional dependency for cross-encoder reranking. Installs a larger ML stack.
+-r requirements.txt
+sentence-transformers>=3.0.0
+
+# Optional scanned-PDF OCR (also install the Tesseract and Poppler system binaries).
+pytesseract>=0.3.13
+pdf2image>=1.17.0

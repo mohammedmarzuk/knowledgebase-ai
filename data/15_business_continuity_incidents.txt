@@ -1,0 +1,36 @@
+FICTIONAL TRAINING DOCUMENT — INCIDENT MANAGEMENT AND BUSINESS CONTINUITY
+Document ID: OPS-003 | Version: 1.0 | Owner: Business Operations
+Fictional training policy, not emergency or legal advice.
+
+1. Incident definition
+An incident is an event that disrupts or threatens normal operations, security, data integrity, customer service, employee safety, or critical supplier availability. Examples include a major service outage, ransomware alert, loss of a key system, building closure, data corruption, or critical vendor failure.
+
+2. Initial response
+The person discovering an incident should protect immediate safety, notify the designated response channel, and provide concise facts. Do not speculate about cause or impact. Record when the issue began, systems or locations affected, observed symptoms, and actions already taken. Do not attempt risky recovery steps without authorization.
+
+3. Severity and escalation
+Severity should reflect impact, scope, urgency, and available workarounds. A safety risk or suspected data breach should be escalated immediately. A broad outage affecting a critical service should receive incident-lead ownership and regular updates. The incident lead may raise or lower severity as evidence changes and should document the reason.
+
+4. Roles
+The incident commander coordinates response, prioritization, and decisions. Technical responders investigate and restore affected services. Communications owners prepare approved internal or external updates. Security and Privacy assess security and data implications. Business owners validate whether restored services meet operational needs. One person may hold multiple roles in a small incident, but responsibilities should remain explicit.
+
+5. Communications
+Updates should state confirmed impact, actions underway, known workarounds, next update time, and any action required from users. Avoid unsupported promises about resolution time. External communications must be coordinated with authorized spokespersons and relevant specialists. Do not publish incident details that expose credentials, vulnerabilities, or private information.
+
+6. Recovery and validation
+Before restoring normal operations, verify service health, data integrity, access controls, and downstream dependencies. Backups should be restored only using the documented procedure and validated for completeness. Recovery should not overwrite potentially useful evidence without considering investigation needs. Business owners should confirm that critical workflows operate as expected.
+
+7. Business continuity plans
+Critical processes should identify maximum tolerable downtime, dependencies, alternate methods, key contacts, and recovery priorities. Plans should be tested periodically through tabletop exercises or controlled technical tests. Contact lists and recovery steps should be reviewed after organizational or system changes. A plan that has never been tested should be treated as unverified.
+
+8. Post-incident review
+A post-incident review should describe the timeline, impact, contributing factors, detection, response, recovery, and follow-up actions. The purpose is to improve resilience rather than assign blame. Actions should have owners and due dates. Repeated incidents should trigger a deeper problem-management review.
+
+9. Exercises and preparedness
+Exercises should define objectives, participants, scenario boundaries, and safety constraints. Observers should record decisions, gaps, and assumptions. Findings should be prioritized by risk and tracked until resolved. Do not perform destructive tests against production systems without explicit authorization and safeguards.
+
+Quick retrieval facts:
+- Safety risks and suspected data breaches must be escalated immediately.
+- Incident updates should separate confirmed facts from estimates.
+- Recovery requires validation of service health and data integrity.
+- Continuity plans should identify dependencies, alternate methods, contacts, and recovery priorities.

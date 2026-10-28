@@ -1,0 +1,43 @@
+name: Tests and deployment checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install development dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Compile Python modules
+        run: python -m compileall -q .
+      - name: Run unit tests
+        run: python -m pytest -q
+
+  deployment-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate shell scripts
+        run: |
+          bash -n scripts/backup.sh
+          bash -n scripts/restore.sh
+      - name: Ensure deployment templates exist
+        run: |
+          test -s Dockerfile
+          test -s docker-compose.yml
+          test -s docker-compose.production.yml
+          test -s Caddyfile
+          test -s docs/DEPLOYMENT.md

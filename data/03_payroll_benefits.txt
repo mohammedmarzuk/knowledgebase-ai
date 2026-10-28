@@ -1,0 +1,40 @@
+FICTIONAL TRAINING DOCUMENT — PAYROLL, BENEFITS AND REIMBURSEMENTS
+Document ID: FIN-001 | Version: 1.0 | Owner: Payroll Operations
+This fictional document provides test data, not financial, tax, or legal advice.
+
+1. Payroll calendar
+In this fictional example, payroll targets the last business day of each month. If a bank holiday or processing issue affects the schedule, Payroll should publish a revised date through the official employee channel. The target date is not a guarantee that every bank will post funds at the same hour. Employees should review their payslip after payment and report a suspected error promptly.
+
+2. Payslips and salary queries
+A payslip should show the pay period, gross earnings, applicable deductions, employer contributions where relevant, and net pay. Employees should first check the pay period, recorded hours, approved leave, and any documented changes. If the difference remains unexplained, they should submit a confidential payroll ticket with the pay period and a clear description. Do not send bank passwords, full payment card details, or authentication codes in a payroll ticket. Payroll may request a limited identifier through an approved secure workflow.
+
+3. Bank details
+Changes to payment instructions must be submitted through the official payroll system and verified using the established control. A message from a new email address or a request to redirect salary urgently should be treated cautiously. Payroll staff should not change a bank account solely on the basis of an email request. Any unusual change should be independently verified using a known contact method. Employees should never share online banking credentials with HR or Payroll.
+
+4. Deductions and tax documents
+Deductions may include legally required amounts, authorized benefit contributions, or other items defined by the applicable agreement. The exact categories depend on location and employment terms. Employees who do not understand a deduction should ask Payroll for the calculation and the relevant record. Tax treatment and filing obligations vary, so the sample assistant must not give individualized tax advice. The policy dataset does not contain real tax tables or personal salary records.
+
+5. Bonuses and variable pay
+A bonus or commission is payable only under an approved plan with documented eligibility, measurement period, calculation method, and approval. A manager's informal statement should not be treated as a confirmed award. Disputes about performance measures or calculations should be submitted to the plan owner before the stated review deadline. The fictional handbook does not promise a bonus to any employee.
+
+6. Benefits enrollment
+Benefits information should describe eligibility, enrollment windows, employee contributions, dependants where relevant, and the provider's contact channel. Employees should review the official plan documents because coverage, exclusions, and waiting periods may vary. Sensitive medical or dependant information must be handled through an approved secure provider or HR process. Managers should not request medical details in a public channel.
+
+7. Expense reimbursement
+For this fictional dataset, employees should submit a complete expense claim within 30 calendar days of the expense date. Each claim should include the business purpose, date, amount, currency, category, and itemized receipt where available. The manager should approve business necessity and the budget owner should approve expenses that exceed the team's delegated limit. The sample dataset does not set a universal monetary approval limit; check the current finance matrix. Splitting a purchase to evade approval is prohibited.
+
+8. Travel expenses
+Travel should be approved before booking. Employees should choose reasonable options consistent with the trip purpose and the current travel standard. Claims should distinguish business expenses from personal expenses. Personal extensions, companions, upgrades, and unrelated purchases are not reimbursable unless an approved exception explicitly says otherwise. Lost receipts should be explained in the expense system and handled under the documented exception process.
+
+9. Duplicate claims and fraud prevention
+Employees must not submit the same receipt twice, alter a receipt, misstate the business purpose, or claim a personal expense as business-related. If a duplicate payment is discovered, the employee should notify Finance and follow instructions to correct the record. Finance should preserve a clear audit trail and avoid accusing an employee before checking the facts. Suspected deliberate misuse should be reported through the designated channel.
+
+10. Financial records and separation of duties
+The person requesting a purchase should not be the sole person approving and paying that purchase where controls require separation of duties. Vendor bank-detail changes should be verified independently. Finance records should be stored in approved systems with access limited by role. Approvals should be traceable and should not be performed using another person's account.
+
+Quick retrieval facts:
+- Fictional payroll target: last business day of each month.
+- Fictional expense-claim target: within 30 calendar days of the expense date.
+- Travel should be approved before booking.
+- Bank-detail changes require independent verification.
+- No universal expense monetary limit is specified in this dataset; check the finance approval matrix.

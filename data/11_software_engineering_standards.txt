@@ -1,0 +1,39 @@
+FICTIONAL TRAINING DOCUMENT — SOFTWARE ENGINEERING STANDARDS
+Document ID: ENG-001 | Version: 1.0 | Owner: Engineering Enablement
+Fictional sample practices for a portfolio knowledge base.
+
+1. Development workflow
+Each change should be linked to a requirement, defect, or approved technical task. Developers should use version control, descriptive commits, and a reviewable pull request. A pull request should explain the purpose, implementation approach, risks, testing performed, and any migration or configuration changes. Large changes should be divided into smaller units when practical.
+
+2. Code review
+At least one qualified reviewer should approve a normal change before merge, unless an approved emergency process applies. Reviewers should consider correctness, readability, security, performance, test coverage, maintainability, and compatibility. Approval should not be treated as a rubber stamp. The author remains responsible for addressing feedback and resolving discussions.
+
+3. Testing
+Automated tests should cover expected behaviour and important edge cases. Unit tests validate small components, integration tests verify component interactions, and end-to-end tests exercise user-visible workflows. Tests should be repeatable and should not depend on production secrets or uncontrolled external services. A failing test should be investigated rather than deleted solely to make a build pass.
+
+4. Branching and releases
+Teams should follow the repository's documented branching strategy. Release tags and deployment records should identify the version and change set. Production deployments should use approved pipelines and include a rollback or recovery plan proportionate to risk. Emergency changes must be documented and reviewed after service stability is restored.
+
+5. Dependency management
+Use maintained dependencies from trusted sources and pin or constrain versions according to the project standard. Security alerts should be assessed for exploitability and exposure. Do not copy packages from unknown repositories without review. License obligations should be checked before adding a dependency to a distributed product.
+
+6. Secrets and configuration
+API keys, passwords, tokens, private certificates, and database credentials must not be committed to source control. Use approved secret management or environment variables. Example environment files should contain placeholders, never real secrets. Rotate credentials if they are accidentally exposed and report the exposure through the security process.
+
+7. Observability
+Applications should emit useful structured logs and metrics while avoiding sensitive payloads. Errors should include enough context for diagnosis without leaking credentials or personal information. Services should define health checks, alert ownership, and operational runbooks. Repeated errors should create a tracked issue rather than remaining an unexplained log pattern.
+
+8. API design
+APIs should validate inputs, return consistent status codes, document schemas, and enforce authentication and authorization where required. Do not trust client-supplied role names or object identifiers without checking permissions. Rate limits and timeouts should be considered for externally exposed services. Breaking changes should be versioned or communicated through a migration plan.
+
+9. Accessibility and maintainability
+User interfaces should support keyboard navigation, readable contrast, clear errors, and meaningful labels. Code should favor simple abstractions and consistent naming. Comments should explain why a non-obvious choice exists rather than restating the code. Documentation should be updated when behaviour, configuration, or operational ownership changes.
+
+10. Production readiness
+Before release, confirm tests pass, security checks are reviewed, monitoring is configured, support ownership is clear, and rollback steps are known. Risky migrations should have a backup and recovery plan. The release owner should communicate known limitations and expected user impact.
+
+Quick retrieval facts:
+- Normal changes require qualified code review before merge.
+- Never commit secrets to source control.
+- Failing tests should be investigated, not deleted merely to pass a build.
+- Production deployments need proportionate rollback or recovery planning.

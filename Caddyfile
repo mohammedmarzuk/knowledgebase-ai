@@ -1,0 +1,22 @@
+{
+    email {$ACME_EMAIL}
+}
+
+{$DOMAIN} {
+    encode zstd gzip
+
+    # Protect the entire application. Set a strong password hash in .env.
+    basicauth /* {
+        {$APP_AUTH_USER} {$APP_AUTH_HASH}
+    }
+
+    header {
+        X-Content-Type-Options nosniff
+        X-Frame-Options DENY
+        Referrer-Policy no-referrer
+        Permissions-Policy "camera=(), microphone=(), geolocation=()"
+        -Server
+    }
+
+    reverse_proxy app:8501
+}

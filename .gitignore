@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local vector index / generated runtime state
+chroma_db/
+*.sqlite3
+*.db
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local analytics and evaluation output
+analytics_events.jsonl
+# Local container / model artifacts
+runtime/

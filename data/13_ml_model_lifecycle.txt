@@ -1,0 +1,40 @@
+FICTIONAL TRAINING DOCUMENT — MACHINE LEARNING MODEL LIFECYCLE
+Document ID: AI-002 | Version: 1.0 | Owner: ML Platform
+Fictional guidance for portfolio and RAG evaluation.
+
+1. Problem definition
+Every ML project should begin with a defined user problem, intended use, success metric, baseline, constraints, and owner. Teams should decide whether machine learning is appropriate or whether a simpler rule-based approach would be more reliable. The project should document what the model is not designed to do and which decisions require human review.
+
+2. Data preparation
+Training and evaluation data should have a documented source, permission basis, collection period, label definition, and known limitations. Split data to prevent leakage between training and evaluation. Where time matters, use a time-aware split. Handle missing values, duplicates, outliers, and class imbalance transparently. Sensitive attributes should be used only with appropriate review and a legitimate evaluation purpose.
+
+3. Baselines and metrics
+Compare the candidate model against a simple baseline. Choose metrics that reflect the cost of different errors. Classification may use precision, recall, F1, ROC-AUC, or calibration; regression may use MAE, RMSE, or other task-specific measures. A single aggregate metric can hide poor performance for a subgroup or rare but serious case. Record thresholds and decision rules alongside the reported metrics.
+
+4. Experiment tracking
+Record dataset version, feature definitions, code commit, hyperparameters, random seed where relevant, model artifact, and evaluation results. Reproducibility may be imperfect across hardware or libraries, but the experiment should provide enough information for a meaningful rerun. Avoid selecting a model based only on performance on the final test set.
+
+5. Model review
+Reviewers should assess predictive quality, robustness, interpretability needs, privacy, security, fairness, and operational cost. High-impact use cases require a more rigorous review and appropriate human oversight. A model card or equivalent document should describe intended use, limitations, evaluation data, and monitoring expectations.
+
+6. Deployment
+Deployment should include versioned artifacts, dependency control, input validation, resource limits, access controls, and a rollback plan. Shadow or canary deployment may help detect problems before broad release. The serving layer should handle timeouts and invalid inputs safely. A failed model response should not silently become a confident answer.
+
+7. Monitoring
+Monitor input drift, data quality, prediction distributions, latency, error rates, and business outcomes. Where labels arrive later, schedule retrospective performance analysis. A change in data distribution does not automatically prove that accuracy has fallen, but it should trigger investigation. Define alert thresholds and an owner before production launch.
+
+8. Retraining
+Retraining should be triggered by documented evidence such as degraded performance, a meaningful data shift, or a planned review interval. New models should pass the same evaluation suite and be compared with the current production model. Retraining should not automatically promote a candidate to production without approval.
+
+9. Explainability and fairness
+Use explanations that are appropriate for the model and audience. Feature importance is not necessarily causal explanation. Check performance across relevant groups where lawful and statistically meaningful. Investigate disparities and document limitations. Do not claim a model is unbiased solely because a fairness metric looks acceptable on one dataset.
+
+10. Incident management
+If a model produces unsafe or materially incorrect output, follow the incident process. Preserve the model version, relevant input characteristics, output, timestamp, and context while minimizing sensitive logging. Depending on severity, disable the feature, roll back, or add a human-review gate. Communicate known limitations to users.
+
+Quick retrieval facts:
+- Define intended use, baseline, success metrics, and owner before model development.
+- Prevent data leakage between training and evaluation.
+- Monitor data quality, drift, latency, and business outcomes.
+- Retraining does not automatically imply production promotion.
+- Human review is required for consequential decisions under this sample standard.

@@ -1,0 +1,36 @@
+FICTIONAL TRAINING DOCUMENT — LEARNING, FACILITIES AND WORKPLACE SAFETY
+Document ID: OPS-004 | Version: 1.0 | Owner: Workplace Services
+Fictional examples only.
+
+1. Learning and development
+Employees should discuss development goals with their manager and identify learning that supports current responsibilities or an agreed career direction. Training requests should state the skill gap, expected benefit, time requirement, and cost where relevant. Course or certification funding requires approval under the current learning budget process. The sample dataset does not define a universal funding amount.
+
+2. Training records
+Required training should be completed by the communicated deadline. The learning system should record completion, course version, and any required assessment. Managers should follow up on overdue mandatory training and remove access restrictions only when the relevant requirement is satisfied. A certificate should not be claimed if the course or assessment was not completed.
+
+3. Mentoring and knowledge sharing
+Mentoring arrangements should have clear expectations and reasonable boundaries. Mentors can offer guidance but should not promise promotions or confidential decisions. Teams should document critical processes and avoid relying on one person's undocumented knowledge. Knowledge-sharing sessions should not disclose confidential customer, employee, or vendor data without authorization.
+
+4. Office access and visitors
+Visitors should follow the check-in process, wear required identification, and remain with an authorized host in controlled areas. Employees must not lend access badges or allow unknown people to tailgate through secured doors. Lost badges should be reported promptly. Access rights should be reviewed when a person's role or engagement changes.
+
+5. Meeting rooms and equipment
+Meeting rooms should be booked through the approved system and released when no longer needed. Shared equipment should be returned in working order. Defects or safety hazards should be reported to Workplace Services. Confidential whiteboards or printed materials should be cleared or secured after use.
+
+6. Workplace hazards
+Employees should report spills, damaged equipment, blocked exits, exposed wiring, or other hazards promptly. Do not attempt repairs that require specialist authorization. If an immediate danger exists, move to safety and contact the designated emergency service or site response team. Incident reports should state the location, observed hazard, time, and actions taken.
+
+7. Emergency procedures
+Follow posted evacuation routes and instructions from authorized responders. Do not use elevators during a fire evacuation unless emergency personnel direct otherwise under an approved procedure. Proceed to the designated assembly point and report missing persons to responders. Do not re-enter a building until it has been declared safe by the responsible authority. Local emergency numbers and site-specific details must be obtained from official site materials.
+
+8. Ergonomics and wellbeing
+Workstations should be arranged to support comfortable posture, screen position, and regular movement. Employees who experience discomfort should seek appropriate support and report equipment needs. Managers should consider workload and break practices as part of sustainable performance. This document does not provide medical diagnosis or treatment advice.
+
+9. Environmental responsibility
+Follow local waste-sorting and disposal instructions. Batteries, electronic equipment, and confidential paper may require special handling. Do not place sensitive records in general recycling. Report spills or environmental hazards through the appropriate facilities channel.
+
+Quick retrieval facts:
+- Visitors must follow check-in and remain with an authorized host in controlled areas.
+- Do not lend access badges or permit tailgating.
+- Report hazards promptly; do not perform unauthorized specialist repairs.
+- Do not re-enter an evacuated building until it is declared safe.
