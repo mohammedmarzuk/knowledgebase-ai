@@ -261,7 +261,7 @@ The Streamlit app caches corpus records and tokenization for repeated lexical se
 
 The first run can still be slower because Chroma may need to download or initialize its default embedding model and Ollama may need to load the language model into memory.
 
-## v5 answer-quality evaluation
+## answer-quality evaluation
 
 The Analytics & Evaluation section now includes an opt-in **Evaluate generated answer quality** benchmark. It runs questions from `rag_test_questions.csv` through retrieval and the selected local Ollama model, then reports:
 
@@ -281,7 +281,7 @@ pytest -q
 The evaluation helpers are dependency-free and have unit tests in `tests/test_evaluation_utils.py`.
 
 
-## v6 UI and performance upgrade
+## UI and performance upgrade
 
 - **Incremental indexing:** unchanged chunks are retained, new or changed chunks are added, and stale chunks are removed after successful additions.
 - **Live streaming mode:** optionally streams Ollama tokens to the interface as they arrive. Fast/cached mode remains available.
@@ -290,7 +290,7 @@ The evaluation helpers are dependency-free and have unit tests in `tests/test_ev
 
 For full details, see `RELEASE_NOTES_v8.md`. Streaming reduces perceived waiting time; actual completion speed depends on the local model and hardware.
 
-## Multi-page workspace (v7 upgrade)
+## Multi-page workspace (upgrade)
 
 Streamlit automatically discovers the `pages/` directory. The application now includes dedicated workspace pages:
 
@@ -303,7 +303,7 @@ Streamlit automatically discovers the `pages/` directory. The application now in
 Run the app with `python -m streamlit run app.py`. The pages share the same local Chroma collection and analytics log. The reranker is optional and can download model weights on first use. Benchmark scores depend on the quality of expected-source labels and do not prove generated answers are factually correct.
 
 
-## v8 production-readiness upgrade
+## production-readiness upgrade
 
 Version 8 focuses on reliability and operations rather than adding UI features alone:
 
@@ -346,7 +346,7 @@ language packs, and document quality. OCR is intentionally optional because thes
 system tools are not bundled with Python dependencies.
 
 
-## v11 — Document intelligence and persistent processing history
+## Document intelligence and persistent processing history
 
 The **Document Intelligence** page adds on-demand local Ollama summaries, extracted-text previews,
 content-addressed summary caching, and a bounded local processing history. Summary cache keys are
@@ -360,10 +360,3 @@ summary**. The summary is generated from extracted text using the selected local
 Only the first 100,000 extracted characters are sent to the model per summary request to bound
 resource use. Verify important facts against the original document and source citations.
 
-## Deploy to a VPS with HTTPS
-
-The repository includes a Docker deployment and an optional Caddy reverse proxy with
-automatic TLS and HTTP Basic Authentication. Read [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)
-before exposing the application publicly. Do not expose Streamlit port 8501 or Ollama
-port 11434 directly to the internet. The default setup is intended for a single trusted
-user; multi-user authorization and tenant isolation are not included.
